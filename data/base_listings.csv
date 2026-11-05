@@ -1,201 +1,201 @@
 base_id,language,intended_ids,title,description,location,partner_name,price_eur
-B001,lt,hot-air-balloon,Skrydis oro balionu virš Vilniaus,"Pakilkite saulėtekio metu ir pamatykite senamiestį iš paukščio skrydžio. Skrydis trunka apie valandą, po jo – tradicinis aeronautų krikštas su šampanu.",Vilnius,Gintarvėja,39
-B002,lv,hot-air-balloon,Lidojums ar gaisa balonu pār Siguldu,"Vakara lidojums ar gaisa balonu virs Gaujas ielejas. Lidojums ilgst aptuveni stundu, pēc nolaišanās – sertifikāts un dzirkstošais vīns.",Sigulda,Wiklosz,25
-B003,pl,hot-air-balloon,Lot balonem nad Krakowem,"Niezapomniany lot balonem o wschodzie słońca z widokiem na Wawel i Wisłę. Czas lotu około 60 minut, po wylądowaniu chrzest baloniarski.",Kraków,Kranvela,299
-B004,en,hot-air-balloon,Sunrise hot-air balloon ride for two,"Float above lakes and forests at dawn with an experienced pilot. About one hour in the air, followed by a celebratory toast and a flight certificate.",Trakai,Saulvora,99
-B005,lt,skydiving,Tandemo šuolis parašiutu iš 3000 m,"Laisvas kritimas apie 45 sekundes kartu su patyrusiu instruktoriumi. Prieš šuolį – trumpas instruktažas, galima užsisakyti filmavimą.",Kaunas,Lumivane,25
-B006,lv,skydiving,Tandēma lēciens ar izpletni,Brīvais kritiens no 3000 metru augstuma kopā ar instruktoru. Iekļauta apmācība un ekipējums.,Jelgava,Quintarra,49
-B007,pl,skydiving,Skok spadochronowy w tandemie,"Skok z wysokości 4000 m z instruktorem, około 50 sekund swobodnego spadania. Możliwość nagrania filmu z kamery na nadgarstku.",Piotrków Trybunalski,Mirtova Studio,29
-B008,en,skydiving,Tandem skydive with video,"Jump from 4,000 metres strapped to a certified instructor. Includes ground briefing, all equipment and a handcam video of your freefall.",Klaipėda,Brzozanka,149
-B009,lt,paragliding,Skrydis parasparniu su instruktoriumi,"Tandeminis skrydis parasparniu virš Kuršių marių kopų. Skrydžio trukmė 15–20 minučių, priklauso nuo vėjo.",Nida,Kranvela,59
-B010,lv,paragliding,Paraplāna lidojums tandēmā,Lidojums ar paraplānu kopā ar pieredzējušu pilotu virs jūras krasta. Ilgums atkarīgs no laika apstākļiem.,Jūrkalne,Kranvela,299
-B011,pl,paragliding,Lot paralotnią w tandemie,"Lot paralotnią z pilotem nad górami. Wrażenia jak u ptaka, czas lotu 15–30 minut w zależności od warunków.",Zakopane,Brzozanka,25
-B012,en,paragliding,Paramotor tandem flight,Take off from a meadow on a motorised paraglider with a licensed pilot and cruise above the coastline for twenty minutes.,Palanga,Lumivane,35
-B013,lt,scenic-flights,Apžvalginis skrydis lėktuvu virš pajūrio,"Skrydis mažu lėktuvu virš Palangos ir Kuršių nerijos. Lėktuve telpa trys keleiviai, skrydis trunka 30 minučių.",Palanga,Rugiaslinka,25
+B001,lt,hot-air-balloon,Skrydis oro balionu virš Vilniaus,"Pakilkite saulėtekio metu ir pamatykite senamiestį iš paukščio skrydžio. Skrydis trunka apie valandą, po jo – tradicinis aeronautų krikštas su šampanu.",Vilnius,Gintarvėja,199
+B002,lv,hot-air-balloon,Lidojums ar gaisa balonu pār Siguldu,"Vakara lidojums ar gaisa balonu virs Gaujas ielejas. Lidojums ilgst aptuveni stundu, pēc nolaišanās – sertifikāts un dzirkstošais vīns.",Sigulda,Wiklosz,219
+B003,pl,hot-air-balloon,Lot balonem nad Krakowem,"Niezapomniany lot balonem o wschodzie słońca z widokiem na zamek i Wisłę. Czas lotu około 60 minut, po wylądowaniu chrzest baloniarski.",Kraków,Kranvela,199
+B004,en,hot-air-balloon,Sunrise hot-air balloon ride for two,"Float above lakes and forests at dawn with an experienced pilot. About one hour in the air, followed by a celebratory toast and a flight certificate.",Trakai,Saulvora,199
+B005,lt,skydiving,Tandemo šuolis parašiutu iš 3000 m,"Laisvas kritimas apie 45 sekundes kartu su patyrusiu instruktoriumi. Prieš šuolį – trumpas instruktažas, galima užsisakyti filmavimą.",Kaunas,Lumivane,274
+B006,lv,skydiving,Tandēma lēciens ar izpletni,Brīvais kritiens no 3000 metru augstuma kopā ar instruktoru. Iekļauta apmācība un ekipējums.,Jelgava,Quintarra,274
+B007,pl,skydiving,Skok spadochronowy w tandemie,"Skok z wysokości 4000 m z instruktorem, około 50 sekund swobodnego spadania. Możliwość nagrania filmu z kamery na nadgarstku.",Piotrków Trybunalski,Mirtova Studio,224
+B008,en,skydiving,Tandem skydive with video,"Jump from 4,000 metres strapped to a certified instructor. Includes ground briefing, all equipment and a handcam video of your freefall.",Klaipėda,Brzozanka,224
+B009,lt,paragliding,Skrydis parasparniu su instruktoriumi,"Tandeminis skrydis parasparniu virš Kuršių marių kopų. Skrydžio trukmė 15–20 minučių, priklauso nuo vėjo.",Nida,Kranvela,129
+B010,lv,paragliding,Paraplāna lidojums tandēmā,Lidojums ar paraplānu kopā ar pieredzējušu pilotu virs jūras krasta. Ilgums atkarīgs no laika apstākļiem.,Jūrkalne,Kranvela,119
+B011,pl,paragliding,Lot paralotnią w tandemie,"Lot paralotnią z pilotem nad górami. Wrażenia jak u ptaka, czas lotu 15–30 minut w zależności od warunków.",Zakopane,Brzozanka,149
+B012,en,paragliding,Paramotor tandem flight,Take off from a meadow on a motorised paraglider with a licensed pilot and cruise above the coastline for twenty minutes.,Palanga,Lumivane,129
+B013,lt,scenic-flights,Apžvalginis skrydis lėktuvu virš pajūrio,"Skrydis mažu lėktuvu virš Palangos ir Kuršių nerijos. Lėktuve telpa trys keleiviai, skrydis trunka 30 minučių.",Palanga,Rugiaslinka,134
 B014,lv,scenic-flights,Izmēģinājuma lidojums – pilots uz stundu,Pirmā pilotēšanas nodarbība: pēc instruktāžas jūs pats vadīsiet nelielu lidmašīnu kopā ar instruktoru.,Rīga,Lumivane,119
-B015,pl,scenic-flights,Lot widokowy helikopterem nad Gdańskiem,"Lot helikopterem nad Starym Miastem i portem. Czas lotu 15 minut, do trzech pasażerów.",Gdańsk,Mirtova Studio,59
-B016,en,scenic-flights,Glider flight over the dunes,A silent flight in a two-seat glider towed into the air above the dunes. Around 20 minutes of soaring with an instructor.,Nida,Mirtova Studio,299
-B017,lt,karting,Kartingo lenktynės draugų kompanijai,"Dvi 10 minučių sesijos uždaroje kartingų trasoje, laiko matavimas ir apdovanojimai greičiausiam.",Vilnius,Ozolmija,79
-B018,lv,karting,Kartingu brauciens 15 minūtes,Ātrums un adrenalīns iekštelpu kartingu trasē. Ķivere un kombinezons iekļauti.,Rīga,Brzozanka,39
-B019,pl,karting,Wyścig gokartów – grand prix dla 6 osób,Kwalifikacje i wyścig na torze gokartowym z pomiarem czasu oraz podium dla zwycięzców.,Poznań,Ostrevik,35
-B020,en,karting,Outdoor karting session,"Two 12-minute heats on a 1 km outdoor track with 390cc karts. Helmet, balaclava and lap times included.",Kaunas,Lumivane,79
-B021,lt,off-road-driving,Važiavimas visureigiu bekele,"Valanda vairavimo visureigiu per pelkes, smėlį ir miškus su instruktoriumi šalia.",Molėtai,Ostrevik,45
-B022,lv,off-road-driving,Kvadracikla izbrauciens mežā,Divu stundu brauciens ar kvadraciklu pa meža takām kopā ar gidu. Vadītāja apliecība nav nepieciešama.,Cēsis,Saulvora,49
-B023,pl,off-road-driving,Jazda Lamborghini po torze,Trzy okrążenia toru za kierownicą supersamochodu pod okiem instruktora.,Warszawa,Ezerlauka,35
-B024,en,off-road-driving,Rally car co-driver experience,Sit next to a professional rally driver for three flat-out laps of a gravel stage.,Šiauliai,Ostrevik,29
-B025,lt,horse-riding,Jodinėjimo pamoka pradedantiesiems,Valandos jojimo pamoka manieže su treneriu. Tinka vaikams nuo 7 metų ir suaugusiems.,Kaunas,Lumivane,25
-B026,lv,horse-riding,Izjādes ar zirgiem pa jūras krastu,Divu stundu izjāde gar jūru kopā ar instruktoru. Piemērots arī iesācējiem.,Ventspils,Pušyno Kampas,49
-B027,pl,horse-riding,Przejażdżka konna po lesie,"Półtoragodzinna przejażdżka w terenie z instruktorem, dla osób z podstawowym doświadczeniem.",Sopot,Velmora,299
-B028,en,horse-riding,Pony rides for kids,Thirty minutes of gentle pony rides for children aged 3-10 with a stable hand leading the pony.,Trakai,Brzozanka,89
-B029,lt,kayaking,Plaukimas baidarėmis Neries upe,"Dienos žygis baidarėmis Nerimi, apie 15 km maršrutas. Baidarės, irklai ir liemenės įskaičiuoti.",Kernavė,Morvelia,179
-B030,lv,kayaking,Laivu brauciens pa Gauju,Divvietīgas laivas noma un pārvešana pa Gaujas posmu. Ilgums 4–5 stundas.,Valmiera,Ezerlauka,79
-B031,pl,kayaking,Spływ kajakowy Krutynią,"Całodniowy spływ kajakowy jedną z najpiękniejszych rzek Mazur, z transportem i kamizelkami.",Mazury,Rugiaslinka,45
+B015,pl,scenic-flights,Lot widokowy helikopterem nad Gdańskiem,"Lot helikopterem nad Starym Miastem i portem. Czas lotu 15 minut, do trzech pasażerów.",Gdańsk,Mirtova Studio,149
+B016,en,scenic-flights,Glider flight over the dunes,A silent flight in a two-seat glider towed into the air above the dunes. Around 20 minutes of soaring with an instructor.,Nida,Mirtova Studio,149
+B017,lt,karting,Kartingo lenktynės draugų kompanijai,"Dvi 10 minučių sesijos uždaroje kartingų trasoje, laiko matavimas ir apdovanojimai greičiausiam.",Vilnius,Ozolmija,34
+B018,lv,karting,Kartingu brauciens 15 minūtes,Ātrums un adrenalīns iekštelpu kartingu trasē. Ķivere un kombinezons iekļauti.,Rīga,Brzozanka,29
+B019,pl,karting,Wyścig gokartów – grand prix dla 6 osób,Kwalifikacje i wyścig na torze gokartowym z pomiarem czasu oraz podium dla zwycięzców.,Poznań,Ostrevik,44
+B020,en,karting,Outdoor karting session,"Two 12-minute heats on a 1 km outdoor track with 390cc karts. Helmet, balaclava and lap times included.",Kaunas,Lumivane,49
+B021,lt,off-road-driving,Važiavimas visureigiu bekele,"Valanda vairavimo visureigiu per pelkes, smėlį ir miškus su instruktoriumi šalia.",Molėtai,Ostrevik,149
+B022,lv,off-road-driving,Kvadracikla izbrauciens mežā,Divu stundu brauciens ar kvadraciklu pa meža takām kopā ar gidu. Vadītāja apliecība nav nepieciešama.,Cēsis,Saulvora,94
+B023,pl,off-road-driving,Jazda supersamochodem po torze,Trzy okrążenia toru za kierownicą supersamochodu pod okiem instruktora.,Warszawa,Ezerlauka,129
+B024,en,off-road-driving,Rally car co-driver experience,Sit next to a professional rally driver for three flat-out laps of a gravel stage.,Šiauliai,Ostrevik,119
+B025,lt,horse-riding,Jodinėjimo pamoka pradedantiesiems,Valandos jojimo pamoka manieže su treneriu. Tinka vaikams nuo 7 metų ir suaugusiems.,Kaunas,Lumivane,44
+B026,lv,horse-riding,Izjādes ar zirgiem pa jūras krastu,Divu stundu izjāde gar jūru kopā ar instruktoru. Piemērots arī iesācējiem.,Ventspils,Pušyno Kampas,54
+B027,pl,horse-riding,Przejażdżka konna po lesie,"Półtoragodzinna przejażdżka w terenie z instruktorem, dla osób z podstawowym doświadczeniem.",Sopot,Velmora,54
+B028,en,horse-riding,Pony rides for kids,Thirty minutes of gentle pony rides for children aged 3-10 with a stable hand leading the pony.,Trakai,Brzozanka,49
+B029,lt,kayaking,Plaukimas baidarėmis Neries upe,"Dienos žygis baidarėmis Nerimi, apie 15 km maršrutas. Baidarės, irklai ir liemenės įskaičiuoti.",Kernavė,Morvelia,44
+B030,lv,kayaking,Kanoe laivu brauciens pa Gauju,Divvietīgas kanoe laivas noma un transports līdz startam Gaujas posmā. Ilgums 4–5 stundas.,Valmiera,Ezerlauka,29
+B031,pl,kayaking,Spływ kajakowy Krutynią,"Całodniowy spływ kajakowy jedną z najpiękniejszych rzek Mazur, z transportem i kamizelkami.",Mazury,Rugiaslinka,39
 B032,en,kayaking,Sunset SUP tour on the lake,"Stand-up paddleboard tour for beginners on a calm lake at sunset. Board, paddle and wetsuit provided.",Trakai,Rugiaslinka,29
-B033,lt,boat-trips,Plaukimas jachta Kuršių mariomis,Trijų valandų plaukimas burine jachta su kapitonu. Telpa iki 6 žmonių.,Klaipėda,Lumivane,79
-B034,lv,boat-trips,Kuģītis pa Daugavu,"Stundas brauciens ar kuģīti pa Daugavu, garām vecpilsētai un ostai.",Rīga,Quintarra,199
-B035,pl,boat-trips,Rejs jachtem po Zatoce Gdańskiej,"Dwugodzinny rejs jachtem żaglowym ze skipperem, możliwość nauki podstaw żeglowania.",Gdynia,Gintarvėja,179
-B036,en,boat-trips,Private motorboat cruise,"Two-hour private cruise on a motorboat for up to five guests, with a skipper and soft drinks.",Kaunas,Tolvika,29
-B037,lt,diving,Nardymo su akvalangu bandomasis nėrimas,"Pirmasis nardymas baseine su instruktoriumi: įranga, teorija ir 40 minučių po vandeniu.",Vilnius,Saulvora,249
-B038,lv,diving,Niršanas ievadkurss,"Iepazīšanās ar niršanu baseinā kopā ar sertificētu instruktoru, viss aprīkojums iekļauts.",Rīga,Brzozanka,45
-B039,pl,diving,Kurs nurkowania OWD,"Kurs nurkowania z certyfikatem Open Water, zajęcia na basenie i w jeziorze.",Wrocław,Gintarvėja,39
-B040,en,diving,Snorkelling trip to a quarry lake,"Guided snorkelling session in a clear quarry lake with fins, mask and wetsuit.",Kaunas,Velmora,149
-B041,lt,spa-day,SPA diena dviem,"Visos dienos bilietas į SPA centrą: baseinai, pirčių zona, sūkurinės vonios ir poilsio kambarys.",Druskininkai,Mirtova Studio,29
-B042,lv,spa-day,SPA diena ar baseinu,"Dienas apmeklējums SPA centrā ar baseiniem, pirtīm un atpūtas zonu.",Jūrmala,Ostrevik,89
-B043,pl,spa-day,Dzień w SPA z dostępem do basenów,"Całodniowy pobyt w strefie wellness: baseny, jacuzzi, sauny i strefa relaksu.",Kołobrzeg,Gintarvėja,99
-B044,en,spa-day,Spa day pass,"Full-day access to the thermal pools, steam rooms and relaxation lounge, with a robe and towel.",Birštonas,Pušyno Kampas,199
-B045,lt,massage,Klasikinis viso kūno masažas 60 min.,Atpalaiduojantis viso kūno masažas su aromatiniais aliejais. Atlieka patyręs masažuotojas.,Vilnius,Lumivane,179
-B046,lv,massage,Karsto akmeņu masāža,90 minūšu masāža ar karstiem bazalta akmeņiem dziļai muskuļu atslābināšanai.,Rīga,Kranvela,29
-B047,pl,massage,Masaż tajski,"Tradycyjny masaż tajski na macie, 60 minut, wykonywany przez dyplomowanego terapeutę.",Łódź,Lazurna,199
-B048,en,massage,Sports massage after a long run,A 45-minute deep-tissue sports massage focused on legs and back.,Kaunas,Kranvela,25
-B049,lt,sauna-ritual,Pirties ritualas su pirtininku,"Tradicinis lietuviškos pirties ritualas: vantojimas, žolelių arbata ir maudynės ežere.",Molėtai,Tolvika,179
-B050,lv,sauna-ritual,Pirts rituāls ar pērēju,"Latviešu pirts rituāls ar slotiņām, medus skrubi un atvēsināšanos dīķī.",Sigulda,Tolvika,119
-B051,pl,sauna-ritual,Rytuał saunowy z saunamistrzem,Seans w saunie fińskiej z ceremonią aufguss prowadzoną przez saunamistrza.,Zakopane,Ezerlauka,19
+B033,lt,boat-trips,Plaukimas jachta Kuršių mariomis,Trijų valandų plaukimas burine jachta su kapitonu. Telpa iki 6 žmonių.,Klaipėda,Lumivane,99
+B034,lv,boat-trips,Kuģītis pa Daugavu,"Stundas brauciens ar kuģīti pa Daugavu, garām vecpilsētai un ostai.",Rīga,Quintarra,69
+B035,pl,boat-trips,Rejs jachtem po Zatoce Gdańskiej,"Dwugodzinny rejs jachtem żaglowym ze skipperem, możliwość nauki podstaw żeglowania.",Gdynia,Gintarvėja,69
+B036,en,boat-trips,Private motorboat cruise,"Two-hour private cruise on a motorboat for up to five guests, with a skipper and soft drinks.",Kaunas,Tolvika,69
+B037,lt,diving,Bandomasis nardymas su akvalangu,"Pirmasis nardymas baseine su instruktoriumi: įranga, teorija ir 40 minučių po vandeniu.",Vilnius,Saulvora,69
+B038,lv,diving,Niršanas ievadkurss,"Iepazīšanās ar niršanu baseinā kopā ar sertificētu instruktoru, viss aprīkojums iekļauts.",Rīga,Brzozanka,69
+B039,pl,diving,Kurs nurkowania OWD,"Kurs nurkowania z certyfikatem Open Water, zajęcia na basenie i w jeziorze.",Wrocław,Gintarvėja,84
+B040,en,diving,Snorkelling trip to a quarry lake,"Guided snorkelling session in a clear quarry lake with fins, mask and wetsuit.",Kaunas,Velmora,64
+B041,lt,spa-day,SPA diena dviem,"Visos dienos bilietas į SPA centrą: baseinai, pirčių zona, sūkurinės vonios ir poilsio kambarys.",Druskininkai,Mirtova Studio,69
+B042,lv,spa-day,SPA diena ar baseinu,"Dienas apmeklējums SPA centrā ar baseiniem, pirtīm un atpūtas zonu.",Jūrmala,Ostrevik,69
+B043,pl,spa-day,Dzień w SPA z dostępem do basenów,"Całodniowy pobyt w strefie wellness: baseny, jacuzzi, sauny i strefa relaksu.",Kołobrzeg,Gintarvėja,69
+B044,en,spa-day,Spa day pass,"Full-day access to the thermal pools, steam rooms and relaxation lounge, with a robe and towel.",Birštonas,Pušyno Kampas,74
+B045,lt,massage,Klasikinis viso kūno masažas 60 min.,Atpalaiduojantis viso kūno masažas su aromatiniais aliejais. Atlieka patyręs masažuotojas.,Vilnius,Lumivane,44
+B046,lv,massage,Karsto akmeņu masāža,90 minūšu masāža ar karstiem bazalta akmeņiem dziļai muskuļu atslābināšanai.,Rīga,Kranvela,54
+B047,pl,massage,Masaż tajski,"Tradycyjny masaż tajski na macie, 60 minut, wykonywany przez dyplomowanego terapeutę.",Łódź,Lazurna,44
+B048,en,massage,Sports massage after a long run,A 45-minute deep-tissue sports massage focused on legs and back.,Kaunas,Kranvela,59
+B049,lt,sauna-ritual,Pirties ritualas su pirtininku,"Tradicinis lietuviškos pirties ritualas: vantojimas, žolelių arbata ir maudynės ežere.",Molėtai,Tolvika,79
+B050,lv,sauna-ritual,Pirts rituāls ar pērēju,"Latviešu pirts rituāls ar slotiņām, medus skrubi un atvēsināšanos dīķī.",Sigulda,Tolvika,79
+B051,pl,sauna-ritual,Rytuał saunowy z saunamistrzem,Seans w saunie fińskiej z ceremonią aufguss prowadzoną przez saunamistrza.,Zakopane,Ezerlauka,64
 B052,en,sauna-ritual,Smoke sauna evening,"Three hours in a traditional smoke sauna with a sauna master, whisking and a cold plunge.",Utena,Morvelia,99
-B053,lt,beauty-treatments,Veido procedūra su hialurono rūgštimi,"Gilaus drėkinimo veido procedūra: valymas, šveitimas, kaukė ir masažas.",Kaunas,Nordvale Club,35
-B054,lv,beauty-treatments,Manikīrs un pedikīrs,"Klasisks manikīrs un pedikīrs ar gela laku, vienā apmeklējumā.",Liepāja,Velmora,25
-B055,pl,beauty-treatments,Zabieg na twarz z mikrodermabrazją,"Oczyszczanie i odmładzanie skóry twarzy, zakończone maską nawilżającą.",Warszawa,Brivlanda,79
-B056,en,beauty-treatments,Hair styling and blow-dry,"Wash, cut and blow-dry with a senior stylist, including a scalp treatment.",Vilnius,Ozolmija,59
-B057,lt,yoga-retreat,Jogos savaitgalis gamtoje,Dviejų dienų jogos ir meditacijos stovykla prie ežero su vegetarišku maistu.,Ignalina,Wiklosz,119
-B058,lv,yoga-retreat,Jogas nodarbību abonements,Piecas jogas nodarbības studijā iesācējiem un vidēji pieredzējušiem.,Rīga,Velmora,29
-B059,pl,yoga-retreat,Warsztaty medytacji uważności,Trzygodzinne warsztaty mindfulness z elementami jogi i oddechu.,Kraków,Nordvale Club,179
-B060,en,yoga-retreat,Sunrise beach yoga class,"A 75-minute yoga session on the beach at sunrise, mats provided.",Palanga,Wiklosz,299
-B061,lt,float-therapy,Plūduriavimo kapsulė 60 min.,Valanda plūduriavimo druskos tirpale – visiškas atsipalaidavimas be gravitacijos.,Vilnius,Lazurna,39
-B062,lv,float-therapy,Floating terapija,Stunda sāls ūdens kapsulā – dziļa relaksācija un stresa mazināšana.,Rīga,Brzozanka,299
-B063,pl,float-therapy,Seans floatingu,"Unoszenie się w kapsule z wodą i solą Epsom, 60 minut odprężenia.",Gdańsk,Lazurna,149
-B064,en,float-therapy,Float tank session,"One hour floating in a dark, quiet float pod filled with Epsom salt water.",Kaunas,Ezerlauka,119
-B065,lt,wine-tasting,Vyno degustacija su someljė,Šešių vynų iš Italijos degustacija su someljė ir sūrių lėkšte.,Vilnius,Rugiaslinka,39
-B066,lv,wine-tasting,Vīna degustācija vīna darītavā,Piecu vietējo augļu vīnu degustācija un ekskursija pa vīna darītavu.,Sabile,Kranvela,45
-B067,pl,wine-tasting,Degustacja win w winnicy,Zwiedzanie winnicy i degustacja pięciu win z regionu z przekąskami.,Zielona Góra,Ozolmija,59
-B068,en,wine-tasting,Whisky tasting masterclass,Taste six single malts with a whisky expert and learn how they are made.,Kaunas,Rugiaslinka,19
-B069,lt,beer-tasting,Amatinio alaus degustacija,Penkių rūšių amatinio alaus degustacija ir pasakojimas apie gamybą darykloje.,Biržai,Velmora,45
-B070,lv,beer-tasting,Alus darītavas ekskursija,Ekskursija pa alus darītavu ar četru alus šķirņu degustāciju.,Valmiera,Lazurna,79
-B071,pl,beer-tasting,Zwiedzanie browaru z degustacją,Wycieczka po browarze rzemieślniczym i degustacja sześciu piw.,Wrocław,Vejaskaltis,39
-B072,en,beer-tasting,Craft beer flight,A guided flight of eight craft beers with snacks in a brewery taproom.,Vilnius,Brzozanka,299
-B073,lt,cooking-class,Itališkos virtuvės kulinarijos pamoka,"Išmokite gaminti šviežius makaronus ir padažus kartu su šefu, po pamokos – vakarienė.",Vilnius,Ezerlauka,89
-B074,lv,cooking-class,Suši gatavošanas meistarklase,"Divu stundu meistarklase, kurā iemācīsieties pagatavot suši un rullīšus.",Rīga,Ozolmija,249
-B075,pl,cooking-class,Warsztaty kulinarne – kuchnia tajska,"Gotowanie dań kuchni tajskiej pod okiem szefa kuchni, z degustacją.",Warszawa,Pušyno Kampas,25
-B076,en,cooking-class,Sourdough baking workshop,Learn to make and shape sourdough bread; take your loaf and starter home.,Kaunas,Morvelia,299
-B077,lt,fine-dining,Degustacinė vakarienė restorane,Septynių patiekalų degustacinis meniu dviem šefo restorane.,Vilnius,Wiklosz,119
-B078,lv,fine-dining,Vakariņas pie šefpavāra galda,Piecu ēdienu vakariņas pie šefpavāra galda ar skatu uz virtuvi.,Rīga,Wiklosz,119
-B079,pl,fine-dining,Kolacja degustacyjna dla dwojga,Menu degustacyjne z sześciu dań w restauracji z widokiem na rynek.,Kraków,Saulvora,199
-B080,en,fine-dining,Dinner for two at a lakeside restaurant,Three-course dinner for two with a welcome drink at a restaurant by the lake.,Trakai,Wiklosz,25
-B081,lt,chocolate-workshop,Šokolado gamybos edukacija,Pasigaminkite savo šokoladinių saldainių ir sužinokite šokolado istoriją.,Kaunas,Brivlanda,29
-B082,lv,chocolate-workshop,Šokolādes darbnīca bērniem,Bērni paši gatavo šokolādes figūriņas un iesaiņo tās dāvanai.,Rīga,Brivlanda,179
-B083,pl,chocolate-workshop,Warsztaty czekoladowe,Tworzenie własnych pralin i tabliczek czekolady z mistrzem czekolady.,Toruń,Nordvale Club,35
-B084,en,chocolate-workshop,Macaron baking class,Bake and fill French macarons in a small group class with a pastry chef.,Vilnius,Gintarvėja,25
-B085,lt,coffee-class,Baristos kursai pradedantiesiems,"Išmokite paruošti espresso, kapučino ir latte meną per trijų valandų kursą.",Vilnius,Saulvora,19
-B086,lv,coffee-class,Kafijas degustācija,Kafijas degustācija ar baristu: trīs pagatavošanas metodes un piecas pupiņu šķirnes.,Rīga,Lumivane,39
-B087,pl,coffee-class,Ceremonia herbaciana,Tradycyjna japońska ceremonia parzenia herbaty z opowieścią o jej historii.,Wrocław,Ostrevik,35
-B088,en,coffee-class,Latte art workshop,"Two-hour latte art workshop: milk texturing, hearts, tulips and rosettas.",Kaunas,Ezerlauka,19
-B089,lt,countryside-cottage,Savaitgalis kaimo turizmo sodyboje,Dvi naktys sodyboje prie ežero su pirtimi ir pusryčiais dviem.,Zarasai,Kranvela,49
-B090,lv,countryside-cottage,Brīvdienu māja pie ezera,Divas naktis brīvdienu mājā laukos ar laivu un ugunskura vietu.,Rāzna,Pušyno Kampas,119
-B091,pl,countryside-cottage,Pobyt w domku na Kaszubach,Weekend w drewnianym domku nad jeziorem dla czterech osób.,Kaszuby,Ozolmija,69
-B092,en,countryside-cottage,Two nights at a farmstead,Stay two nights at a quiet farmstead with homemade breakfast and bikes to borrow.,Anykščiai,Ezerlauka,99
-B093,lt,city-hotel-break,Nakvynė viešbutyje senamiestyje,Viena naktis dviem keturių žvaigždučių viešbutyje su pusryčiais.,Vilnius,Velmora,35
-B094,lv,city-hotel-break,Nakts viesnīcā Vecrīgā,Viena nakts divvietīgā numurā ar brokastīm Vecrīgas viesnīcā.,Rīga,Saulvora,199
-B095,pl,city-hotel-break,Weekend w hotelu w centrum,Dwie noce w hotelu w centrum miasta ze śniadaniem dla dwóch osób.,Gdańsk,Morvelia,199
+B053,lt,beauty-treatments,Veido procedūra su hialurono rūgštimi,"Gilaus drėkinimo veido procedūra: valymas, šveitimas, kaukė ir masažas.",Kaunas,Nordvale Club,39
+B054,lv,beauty-treatments,Manikīrs un pedikīrs,"Klasisks manikīrs un pedikīrs ar gela laku, vienā apmeklējumā.",Liepāja,Velmora,49
+B055,pl,beauty-treatments,Zabieg na twarz z mikrodermabrazją,"Oczyszczanie i odmładzanie skóry twarzy, zakończone maską nawilżającą.",Warszawa,Brivlanda,59
+B056,en,beauty-treatments,Hair styling and blow-dry,"Wash, cut and blow-dry with a senior stylist, including a scalp treatment.",Vilnius,Ozolmija,49
+B057,lt,yoga-retreat,Jogos savaitgalis gamtoje,Dviejų dienų jogos ir meditacijos stovykla prie ežero su vegetarišku maistu.,Ignalina,Wiklosz,59
+B058,lv,yoga-retreat,Jogas nodarbību abonements,Piecas jogas nodarbības studijā iesācējiem un vidēji pieredzējušiem.,Rīga,Velmora,64
+B059,pl,yoga-retreat,Warsztaty medytacji uważności,Trzygodzinne warsztaty mindfulness z elementami jogi i oddechu.,Kraków,Nordvale Club,44
+B060,en,yoga-retreat,Sunrise beach yoga class,"A 75-minute yoga session on the beach at sunrise, mats provided.",Palanga,Wiklosz,74
+B061,lt,float-therapy,Plūduriavimo kapsulė 60 min.,Valanda plūduriavimo druskos tirpale – visiškas atsipalaidavimas be gravitacijos.,Vilnius,Lazurna,44
+B062,lv,float-therapy,Floating terapija,Stunda sāls ūdens kapsulā – dziļa relaksācija un stresa mazināšana.,Rīga,Brzozanka,44
+B063,pl,float-therapy,Seans floatingu,"Unoszenie się w kapsule z wodą i solą Epsom, 60 minut odprężenia.",Gdańsk,Lazurna,39
+B064,en,float-therapy,Float tank session,"One hour floating in a dark, quiet float pod filled with Epsom salt water.",Kaunas,Ezerlauka,49
+B065,lt,wine-tasting,Vyno degustacija su someljė,Šešių vynų iš Italijos degustacija su someljė ir sūrių lėkšte.,Vilnius,Rugiaslinka,49
+B066,lv,wine-tasting,Vīna degustācija vīna darītavā,Piecu vietējo augļu vīnu degustācija un ekskursija pa vīna darītavu.,Sabile,Kranvela,39
+B067,pl,wine-tasting,Degustacja win w winnicy,Zwiedzanie winnicy i degustacja pięciu win z regionu z przekąskami.,Zielona Góra,Ozolmija,39
+B068,en,wine-tasting,Whisky tasting masterclass,Taste six single malts with a whisky expert and learn how they are made.,Kaunas,Rugiaslinka,54
+B069,lt,beer-tasting,Amatinio alaus degustacija,Penkių rūšių amatinio alaus degustacija ir pasakojimas apie gamybą darykloje.,Biržai,Velmora,29
+B070,lv,beer-tasting,Alus darītavas ekskursija,Ekskursija pa alus darītavu ar četru alus šķirņu degustāciju.,Valmiera,Lazurna,34
+B071,pl,beer-tasting,Zwiedzanie browaru z degustacją,Wycieczka po browarze rzemieślniczym i degustacja sześciu piw.,Wrocław,Vejaskaltis,29
+B072,en,beer-tasting,Craft beer flight,A guided flight of eight craft beers with snacks in a brewery taproom.,Vilnius,Brzozanka,34
+B073,lt,cooking-class,Itališkos virtuvės kulinarijos pamoka,"Išmokite gaminti šviežius makaronus ir padažus kartu su šefu, po pamokos – vakarienė.",Vilnius,Ezerlauka,69
+B074,lv,cooking-class,Suši gatavošanas meistarklase,"Divu stundu meistarklase, kurā iemācīsieties pagatavot suši un rullīšus.",Rīga,Ozolmija,54
+B075,pl,cooking-class,Warsztaty kulinarne – kuchnia tajska,"Gotowanie dań kuchni tajskiej pod okiem szefa kuchni, z degustacją.",Warszawa,Pušyno Kampas,54
+B076,en,cooking-class,Sourdough baking workshop,Learn to make and shape sourdough bread; take your loaf and starter home.,Kaunas,Morvelia,84
+B077,lt,fine-dining,Degustacinė vakarienė restorane,Septynių patiekalų degustacinis meniu dviem šefo restorane.,Vilnius,Wiklosz,94
+B078,lv,fine-dining,Vakariņas pie šefpavāra galda,Piecu ēdienu vakariņas pie šefpavāra galda ar skatu uz virtuvi.,Rīga,Wiklosz,104
+B079,pl,fine-dining,Kolacja degustacyjna dla dwojga,Menu degustacyjne z sześciu dań w restauracji z widokiem na rynek.,Kraków,Saulvora,104
+B080,en,fine-dining,Dinner for two at a lakeside restaurant,Three-course dinner for two with a welcome drink at a restaurant by the lake.,Trakai,Wiklosz,94
+B081,lt,chocolate-workshop,Šokolado gamybos edukacija,Pasigaminkite savo šokoladinių saldainių ir sužinokite šokolado istoriją.,Kaunas,Brivlanda,34
+B082,lv,chocolate-workshop,Šokolādes darbnīca bērniem,Bērni paši gatavo šokolādes figūriņas un iesaiņo tās dāvanai.,Rīga,Brivlanda,34
+B083,pl,chocolate-workshop,Warsztaty czekoladowe,Tworzenie własnych pralin i tabliczek czekolady z mistrzem czekolady.,Toruń,Nordvale Club,44
+B084,en,chocolate-workshop,Macaron baking class,Bake and fill French macarons in a small group class with a pastry chef.,Vilnius,Gintarvėja,34
+B085,lt,coffee-class,Baristos kursai pradedantiesiems,"Išmokite paruošti espresso, kapučino ir latte meną per trijų valandų kursą.",Vilnius,Saulvora,44
+B086,lv,coffee-class,Kafijas degustācija,Kafijas degustācija ar baristu: trīs pagatavošanas metodes un piecas pupiņu šķirnes.,Rīga,Lumivane,34
+B087,pl,coffee-class,Ceremonia herbaciana,Tradycyjna japońska ceremonia parzenia herbaty z opowieścią o jej historii.,Wrocław,Ostrevik,49
+B088,en,coffee-class,Latte art workshop,"Two-hour latte art workshop: milk texturing, hearts, tulips and rosettas.",Kaunas,Ezerlauka,54
+B089,lt,countryside-cottage,Savaitgalis kaimo turizmo sodyboje,Dvi naktys sodyboje prie ežero su pirtimi ir pusryčiais dviem.,Zarasai,Kranvela,159
+B090,lv,countryside-cottage,Brīvdienu māja pie ezera,Divas naktis brīvdienu mājā laukos ar laivu un ugunskura vietu.,Rāzna,Pušyno Kampas,224
+B091,pl,countryside-cottage,Pobyt w domku na Kaszubach,Weekend w drewnianym domku nad jeziorem dla czterech osób.,Kaszuby,Ozolmija,179
+B092,en,countryside-cottage,Two nights at a farmstead,Stay two nights at a quiet farmstead with homemade breakfast and bikes to borrow.,Anykščiai,Ezerlauka,179
+B093,lt,city-hotel-break,Nakvynė viešbutyje senamiestyje,Viena naktis dviem keturių žvaigždučių viešbutyje su pusryčiais.,Vilnius,Velmora,79
+B094,lv,city-hotel-break,Nakts viesnīcā Vecrīgā,Viena nakts divvietīgā numurā ar brokastīm Vecrīgas viesnīcā.,Rīga,Saulvora,99
+B095,pl,city-hotel-break,Weekend w hotelu w centrum,Dwie noce w hotelu w centrum miasta ze śniadaniem dla dwóch osób.,Gdańsk,Morvelia,99
 B096,en,city-hotel-break,City break: one night with breakfast,"A double room for one night in a design hotel near the old town, breakfast included.",Kaunas,Velmora,79
-B097,lt,glamping,Nakvynė burbule po žvaigždėmis,Naktis permatomame kupole miške su pusryčiais ir kubilu.,Ignalina,Kranvela,39
-B098,lv,glamping,Glempings koku mājiņā,Nakts koku mājā mežā ar terasi un brokastu grozu.,Cēsis,Saulvora,89
-B099,pl,glamping,Noc w namiocie glampingowym,"Luksusowy namiot z łóżkiem i tarasem nad jeziorem, śniadanie w cenie.",Mazury,Lazurna,199
-B100,en,glamping,Dome glamping night,A night in a heated geodesic dome with a hot tub and breakfast basket.,Molėtai,Nordvale Club,249
-B101,lt,romantic-getaway,Romantiškas savaitgalis dviem,"Naktis su šampanu kambaryje, romantiška vakarienė ir vėlyvas išsiregistravimas.",Palanga,Vejaskaltis,49
-B102,lv,romantic-getaway,Romantiska nakts diviem,"Nakts viesnīcā ar ziediem, dzirkstošo vīnu un vakariņām diviem.",Jūrmala,Quintarra,99
-B103,pl,romantic-getaway,Romantyczny pobyt dla dwojga,"Nocleg z kolacją przy świecach, butelką prosecco i śniadaniem do łóżka.",Sopot,Ozolmija,299
-B104,en,romantic-getaway,Anniversary getaway package,"One night for a couple with rose petals, champagne on arrival and a candle-lit dinner.",Trakai,Vejaskaltis,249
-B105,lt,pottery-workshop,Keramikos dirbtuvės ant žiedimo rato,"Išbandykite žiedimą ant rato ir pasigaminkite savo puodelį, kuris bus išdegtas.",Vilnius,Tolvika,29
-B106,lv,pottery-workshop,Sveču liešanas darbnīca,Izveidojiet savas sojas vaska sveces ar ēteriskajām eļļām.,Rīga,Lazurna,249
-B107,pl,pottery-workshop,Warsztaty ceramiki,Lepienie z gliny i szkliwienie własnej miski pod okiem ceramika.,Kraków,Ezerlauka,45
-B108,en,pottery-workshop,Wheel-throwing taster class,A two-hour pottery wheel class for beginners; your pieces are glazed and fired.,Kaunas,Ezerlauka,59
-B109,lt,painting-class,Tapymo vakaras su vynu,Tapykite paveikslą drobėje su dailininko pagalba ir taure vyno.,Kaunas,Ostrevik,299
-B110,lv,painting-class,Akvareļu gleznošanas nodarbība,"Akvareļu tehnikas pamati iesācējiem, visi materiāli iekļauti.",Rīga,Quintarra,89
-B111,pl,painting-class,Kurs rysunku dla początkujących,Cztery spotkania nauki rysunku ołówkiem i węglem.,Poznań,Rugiaslinka,49
-B112,en,painting-class,Paint and sip evening,"Paint your own canvas guided step by step by an artist, with a glass of wine.",Vilnius,Rugiaslinka,119
-B113,lt,photography-course,Fotosesija studijoje šeimai,Valandos fotosesija studijoje ir 15 apdorotų nuotraukų.,Vilnius,Rugiaslinka,49
-B114,lv,photography-course,Fotogrāfijas pamatkurss,"Trīs nodarbības par ekspozīciju, kompozīciju un gaismu.",Rīga,Quintarra,199
-B115,pl,photography-course,Sesja zdjęciowa w plenerze,"Plenerowa sesja zdjęciowa dla par, 30 obrobionych zdjęć.",Wrocław,Ezerlauka,19
-B116,en,photography-course,Night photography walk,A guided evening photo walk teaching long exposure and city lights.,Kaunas,Vejaskaltis,69
-B117,lt,dance-lessons,Pirmojo vestuvių šokio pamokos,Trys privačios pamokos jaunavedžiams su choreografu.,Vilnius,Velmora,69
-B118,lv,dance-lessons,Salsas nodarbības pāriem,Četras salsas nodarbības pāriem iesācējiem.,Rīga,Brivlanda,99
-B119,pl,dance-lessons,Kurs tańca towarzyskiego,"Osiem zajęć tańca towarzyskiego dla par: walc, tango, cha-cha.",Łódź,Morvelia,99
-B120,en,dance-lessons,Bachata taster class,"A one-hour bachata class for singles and couples, no experience needed.",Klaipėda,Ezerlauka,29
-B121,lt,music-lessons,Gitaros pamoka pradedantiesiems,"Individuali 60 min. gitaros pamoka su mokytoju, instrumentas suteikiamas.",Kaunas,Rugiaslinka,35
-B122,lv,music-lessons,Dziesmas ierakstīšana studijā,Ierakstiet savu dziesmu profesionālā skaņu studijā ar skaņu inženieri.,Rīga,Rugiaslinka,199
-B123,pl,music-lessons,Lekcja śpiewu,Indywidualna lekcja emisji głosu z wokalistką.,Warszawa,Brivlanda,89
-B124,en,music-lessons,DJ lesson for beginners,Learn beatmatching and mixing on professional decks in a two-hour lesson.,Vilnius,Brivlanda,199
-B125,lt,escape-room,Pabėgimo kambarys 2–6 žaidėjams,Išspręskite galvosūkius ir pabėkite iš kambario per 60 minučių.,Vilnius,Pušyno Kampas,19
-B126,lv,escape-room,Bēgšanas istaba ar šausmu tēmu,Šausmu tēmas bēgšanas istaba komandai līdz piecām personām.,Rīga,Velmora,99
-B127,pl,escape-room,Escape room – tajemnica laboratorium,"Pokój zagadek dla grupy 2–5 osób, 60 minut na ucieczkę.",Katowice,Kranvela,35
-B128,en,escape-room,Outdoor city quest,A two-hour treasure-hunt quest through the old town solved with your phone.,Kaunas,Wiklosz,49
-B129,lt,guided-tours,Ekskursija po Vilniaus senamiestį,Dviejų valandų ekskursija su gidu po senamiesčio kiemelius ir legendas.,Vilnius,Velmora,45
-B130,lv,guided-tours,Ekskursija pa Rundāles pili,Gida vadīta ekskursija pa pili un franču dārzu.,Rundāle,Brzozanka,89
-B131,pl,guided-tours,Zwiedzanie kopalni soli z przewodnikiem,"Trasa turystyczna po kopalni soli z przewodnikiem, około 3 godzin.",Wieliczka,Kranvela,119
-B132,en,guided-tours,Museum night tour,An after-hours guided tour of a history museum with a curator.,Kaunas,Morvelia,119
-B133,lt,event-tickets,Bilietas į stand-up komedijos vakarą,Du bilietai į humoro šou geriausiose vietose.,Vilnius,Kranvela,45
-B134,lv,event-tickets,Dāvanu karte operas izrādei,Dāvanu karte divām biļetēm uz operas vai baleta izrādi.,Rīga,Nordvale Club,39
-B135,pl,event-tickets,Bilety na koncert w filharmonii,Dwa bilety na wybrany koncert sezonu w filharmonii.,Szczecin,Vejaskaltis,39
-B136,en,event-tickets,Theatre voucher for two,Two tickets for any drama performance this season.,Klaipėda,Lumivane,179
-B137,lt,personal-training,Asmeninė treniruotė su treneriu,Trys individualios treniruotės sporto klube ir mitybos konsultacija.,Vilnius,Ozolmija,199
-B138,lv,personal-training,Sporta zāles mēneša abonements,Neierobežots sporta zāles apmeklējums vienu mēnesi.,Rīga,Ezerlauka,39
-B139,pl,personal-training,Trening personalny,Pakiet pięciu treningów z trenerem personalnym i analizą składu ciała.,Kraków,Ostrevik,299
-B140,en,personal-training,Fitness assessment and training plan,A 90-minute fitness test with a coach and a personalised 8-week plan.,Kaunas,Ozolmija,19
-B141,lt,climbing,Laipiojimas uolų sienele,Dviejų valandų laipiojimo užsiėmimas su instruktoriumi ir įranga.,Vilnius,Vejaskaltis,35
-B142,lv,climbing,Boulderinga ievadnodarbība,"Iepazīšanās ar boulderingu, apavu noma iekļauta.",Rīga,Quintarra,39
-B143,pl,climbing,Wspinaczka skałkowa z instruktorem,Całodniowe wspinanie w skałach z instruktorem i sprzętem.,Jura Krakowsko-Częstochowska,Brzozanka,49
-B144,en,climbing,Climbing wall session for kids,A one-hour supervised climbing wall session for children aged 6-12.,Kaunas,Brivlanda,19
-B145,lt,golf-lesson,Golfo pamoka su treneriu,Valandos golfo pamoka pradedantiesiems ir kamuoliukų krepšys.,Vilnius,Lazurna,49
-B146,lv,golf-lesson,Golfa iepazīšanās nodarbība,"Golfa pamati laukumā ar treneri, nūjas iekļautas.",Jūrmala,Tolvika,249
-B147,pl,golf-lesson,Lekcja golfa,Indywidualna lekcja gry w golfa na driving range.,Warszawa,Rugiaslinka,89
-B148,en,golf-lesson,Round of golf for two,An 18-hole green fee for two players on a parkland course.,Kaunas,Lazurna,299
-B149,lt,racket-sports,Teniso pamoka pradedantiesiems,Individuali teniso pamoka uždarame korte su raketėmis.,Kaunas,Brzozanka,39
-B150,lv,racket-sports,Padel tenisa laukuma noma,Padel laukuma noma uz pusotru stundu četriem spēlētājiem.,Rīga,Mirtova Studio,99
-B151,pl,racket-sports,Lekcja squasha,"Lekcja squasha z trenerem, sprzęt w cenie.",Wrocław,Morvelia,249
-B152,en,racket-sports,Badminton court hire,One hour of badminton court hire with rackets and shuttlecocks.,Vilnius,Brzozanka,249
-B153,lt,shooting-range,Šaudymas šaudykloje,Šaudymas iš trijų rūšių ginklų su instruktoriumi.,Vilnius,Ozolmija,299
-B154,lv,shooting-range,Loka šaušanas nodarbība,"Loka šaušanas pamati ar instruktoru, 60 bultas.",Sigulda,Ozolmija,249
-B155,pl,shooting-range,Strzelnica – pakiet 5 broni,Strzelanie z pięciu rodzajów broni pod okiem instruktora.,Gdańsk,Quintarra,19
-B156,en,shooting-range,Archery lesson,Learn archery basics on an outdoor range with a coach.,Trakai,Morvelia,45
-B157,lt,paintball,Dažasvydžio žaidimas grupei,Dviejų valandų dažasvydžio žaidimas su įranga ir 200 kamuoliukų.,Kaunas,Pušyno Kampas,19
-B158,lv,paintball,Lāzertags komandai,Lāzertaga spēle mežā līdz 12 spēlētājiem.,Rīga,Ozolmija,45
-B159,pl,paintball,Paintball dla grupy,"Gra w paintball na leśnym polu, sprzęt i kulki w cenie.",Poznań,Ozolmija,199
-B160,en,paintball,Laser tag party,A one-hour laser tag party for up to 10 kids with snacks.,Vilnius,Pušyno Kampas,35
-B161,lt,unknown,Padangų keitimas su balansavimu,Keturių padangų keitimas ir balansavimas lengvajam automobiliui.,Kaunas,Ostrevik,25
-B162,lv,unknown,Telefona ekrāna nomaiņa,Viedtālruņa ekrāna nomaiņa servisā ar garantiju.,Rīga,Gintarvėja,249
-B163,pl,unknown,Mycie samochodu ręczne,Ręczne mycie i woskowanie samochodu osobowego.,Łódź,Quintarra,299
-B164,en,unknown,Dog grooming session,"Bath, haircut and nail trim for a medium-sized dog.",Vilnius,Velmora,35
-B165,lt,unknown,Dovanų kuponas 50 €,"Dovanų kuponas, kurį galima panaudoti.",Vilnius,Ostrevik,25
-B166,lv,unknown,Dāvanu karte 30 EUR,Dāvanu karte.,Rīga,Rugiaslinka,49
+B097,lt,glamping,Nakvynė burbule po žvaigždėmis,Naktis permatomame kupole miške su pusryčiais ir kubilu.,Ignalina,Kranvela,139
+B098,lv,glamping,Glempings koku mājiņā,Nakts koku mājā mežā ar terasi un brokastu grozu.,Cēsis,Saulvora,109
+B099,pl,glamping,Noc w namiocie glampingowym,"Luksusowy namiot z łóżkiem i tarasem nad jeziorem, śniadanie w cenie.",Mazury,Lazurna,124
+B100,en,glamping,Dome glamping night,A night in a heated geodesic dome with a hot tub and breakfast basket.,Molėtai,Nordvale Club,124
+B101,lt,romantic-getaway,Romantiškas savaitgalis dviem,"Naktis su šampanu kambaryje, romantiška vakarienė ir vėlyvas išsiregistravimas.",Palanga,Vejaskaltis,224
+B102,lv,romantic-getaway,Romantiska nakts diviem,"Nakts viesnīcā ar ziediem, dzirkstošo vīnu un vakariņām diviem.",Jūrmala,Quintarra,144
+B103,pl,romantic-getaway,Romantyczny pobyt dla dwojga,"Nocleg z kolacją przy świecach, butelką prosecco i śniadaniem do łóżka.",Sopot,Ozolmija,144
+B104,en,romantic-getaway,Anniversary getaway package,"One night for a couple with rose petals, champagne on arrival and a candle-lit dinner.",Trakai,Vejaskaltis,144
+B105,lt,pottery-workshop,Keramikos dirbtuvės: žiedimas ant rato,"Išbandykite žiedimą ant rato ir pasigaminkite savo puodelį, kuris bus išdegtas.",Vilnius,Tolvika,44
+B106,lv,pottery-workshop,Sveču liešanas darbnīca,Izveidojiet savas sojas vaska sveces ar ēteriskajām eļļām.,Rīga,Lazurna,44
+B107,pl,pottery-workshop,Warsztaty ceramiki,Lepienie z gliny i szkliwienie własnej miski pod okiem ceramika.,Kraków,Ezerlauka,39
+B108,en,pottery-workshop,Wheel-throwing taster class,A two-hour pottery wheel class for beginners; your pieces are glazed and fired.,Kaunas,Ezerlauka,54
+B109,lt,painting-class,Tapymo vakaras su vynu,Tapykite paveikslą ant drobės su dailininko pagalba ir taure vyno.,Kaunas,Ostrevik,44
+B110,lv,painting-class,Akvareļu gleznošanas nodarbība,"Akvareļu tehnikas pamati iesācējiem, visi materiāli iekļauti.",Rīga,Quintarra,34
+B111,pl,painting-class,Kurs rysunku dla początkujących,Cztery spotkania nauki rysunku ołówkiem i węglem.,Poznań,Rugiaslinka,39
+B112,en,painting-class,Paint and sip evening,"Paint your own canvas guided step by step by an artist, with a glass of wine.",Vilnius,Rugiaslinka,44
+B113,lt,photography-course,Fotosesija studijoje šeimai,Valandos fotosesija studijoje ir 15 apdorotų nuotraukų.,Vilnius,Rugiaslinka,69
+B114,lv,photography-course,Fotogrāfijas pamatkurss,"Trīs nodarbības par ekspozīciju, kompozīciju un gaismu.",Rīga,Quintarra,99
+B115,pl,photography-course,Sesja zdjęciowa w plenerze,"Plenerowa sesja zdjęciowa dla par, 30 obrobionych zdjęć.",Wrocław,Ezerlauka,69
+B116,en,photography-course,Night photography walk,A guided evening photo walk teaching long exposure and city lights.,Kaunas,Vejaskaltis,79
+B117,lt,dance-lessons,Pirmojo vestuvių šokio pamokos,Trys privačios pamokos jaunavedžiams su choreografu.,Vilnius,Velmora,74
+B118,lv,dance-lessons,Salsas nodarbības pāriem,Četras salsas nodarbības pāriem iesācējiem.,Rīga,Brivlanda,59
+B119,pl,dance-lessons,Kurs tańca towarzyskiego,"Osiem zajęć tańca towarzyskiego dla par: walc, tango, cha-cha.",Łódź,Morvelia,44
+B120,en,dance-lessons,Bachata taster class,"A one-hour bachata class for singles and couples, no experience needed.",Klaipėda,Ezerlauka,59
+B121,lt,music-lessons,Gitaros pamoka pradedantiesiems,"Individuali 60 min. gitaros pamoka su mokytoju, instrumentas suteikiamas.",Kaunas,Rugiaslinka,44
+B122,lv,music-lessons,Dziesmas ierakstīšana studijā,Ierakstiet savu dziesmu profesionālā skaņu studijā ar skaņu inženieri.,Rīga,Rugiaslinka,39
+B123,pl,music-lessons,Lekcja śpiewu,Indywidualna lekcja emisji głosu z wokalistką.,Warszawa,Brivlanda,34
+B124,en,music-lessons,DJ lesson for beginners,Learn beatmatching and mixing on professional decks in a two-hour lesson.,Vilnius,Brivlanda,44
+B125,lt,escape-room,Pabėgimo kambarys 2–6 žaidėjams,Išspręskite galvosūkius ir pabėkite iš kambario per 60 minučių.,Vilnius,Pušyno Kampas,74
+B126,lv,escape-room,Bēgšanas istaba ar šausmu tēmu,Šausmu tēmas bēgšanas istaba komandai līdz piecām personām.,Rīga,Velmora,69
+B127,pl,escape-room,Escape room – tajemnica laboratorium,"Pokój zagadek dla grupy 2–5 osób, 60 minut na ucieczkę.",Katowice,Kranvela,54
+B128,en,escape-room,Outdoor city quest,A two-hour treasure-hunt quest through the old town solved with your phone.,Kaunas,Wiklosz,59
+B129,lt,guided-tours,Ekskursija po Vilniaus senamiestį,Dviejų valandų ekskursija su gidu po senamiesčio kiemelius ir legendas.,Vilnius,Velmora,14
+B130,lv,guided-tours,Ekskursija pa vēsturisku muižu,Gida vadīta ekskursija pa muižas pili un parku.,Bauska,Brzozanka,19
+B131,pl,guided-tours,Zwiedzanie podziemnej trasy z przewodnikiem,"Trasa turystyczna po zabytkowych podziemiach starego miasta z przewodnikiem, około 2 godzin.",Lublin,Kranvela,19
+B132,en,guided-tours,Museum night tour,An after-hours guided tour of a history museum with a curator.,Kaunas,Morvelia,24
+B133,lt,event-tickets,Bilietas į stand-up komedijos vakarą,Du bilietai į humoro šou geriausiose vietose.,Vilnius,Kranvela,64
+B134,lv,event-tickets,Dāvanu karte operas izrādei,Dāvanu karte divām biļetēm uz operas vai baleta izrādi.,Rīga,Nordvale Club,44
+B135,pl,event-tickets,Bilety na koncert w filharmonii,Dwa bilety na wybrany koncert sezonu w filharmonii.,Szczecin,Vejaskaltis,44
+B136,en,event-tickets,Theatre voucher for two,Two tickets for any drama performance this season.,Klaipėda,Lumivane,54
+B137,lt,personal-training,Asmeninė treniruotė su treneriu,Trys individualios treniruotės sporto klube ir mitybos konsultacija.,Vilnius,Ozolmija,79
+B138,lv,personal-training,Sporta zāles mēneša abonements,Neierobežots sporta zāles apmeklējums vienu mēnesi.,Rīga,Ezerlauka,89
+B139,pl,personal-training,Trening personalny,Pakiet pięciu treningów z trenerem personalnym i analizą składu ciała.,Kraków,Ostrevik,89
+B140,en,personal-training,Fitness assessment and training plan,A 90-minute fitness test with a coach and a personalised 8-week plan.,Kaunas,Ozolmija,69
+B141,lt,climbing,Laipiojimas ant laipiojimo sienelės,Dviejų valandų laipiojimo užsiėmimas su instruktoriumi ir įranga.,Vilnius,Vejaskaltis,29
+B142,lv,climbing,Boulderinga ievadnodarbība,"Iepazīšanās ar boulderingu, apavu noma iekļauta.",Rīga,Quintarra,24
+B143,pl,climbing,Wspinaczka skałkowa z instruktorem,Całodniowe wspinanie w skałach z instruktorem i sprzętem.,Jura Krakowsko-Częstochowska,Brzozanka,24
+B144,en,climbing,Climbing wall session for kids,A one-hour supervised climbing wall session for children aged 6-12.,Kaunas,Brivlanda,24
+B145,lt,golf-lesson,Golfo pamoka su treneriu,Valandos golfo pamoka pradedantiesiems ir kamuoliukų krepšys.,Vilnius,Lazurna,39
+B146,lv,golf-lesson,Golfa iepazīšanās nodarbība,"Golfa pamati laukumā ar treneri, nūjas iekļautas.",Jūrmala,Tolvika,39
+B147,pl,golf-lesson,Lekcja golfa,Indywidualna lekcja gry w golfa na driving range.,Warszawa,Rugiaslinka,39
+B148,en,golf-lesson,Round of golf for two,An 18-hole green fee for two players on a parkland course.,Kaunas,Lazurna,44
+B149,lt,racket-sports,Teniso pamoka pradedantiesiems,Individuali teniso pamoka uždarame korte su raketėmis.,Kaunas,Brzozanka,29
+B150,lv,racket-sports,Padel tenisa laukuma noma,Padel laukuma noma uz pusotru stundu četriem spēlētājiem.,Rīga,Mirtova Studio,34
+B151,pl,racket-sports,Lekcja squasha,"Lekcja squasha z trenerem, sprzęt w cenie.",Wrocław,Morvelia,24
+B152,en,racket-sports,Badminton court hire,One hour of badminton court hire with rackets and shuttlecocks.,Vilnius,Brzozanka,24
+B153,lt,shooting-range,Šaudymas šaudykloje,Šaudymas iš trijų rūšių ginklų su instruktoriumi.,Vilnius,Ozolmija,74
+B154,lv,shooting-range,Loka šaušanas nodarbība,"Loka šaušanas pamati ar instruktoru, 60 bultas.",Sigulda,Ozolmija,69
+B155,pl,shooting-range,Strzelnica – pakiet 5 broni,Strzelanie z pięciu rodzajów broni pod okiem instruktora.,Gdańsk,Quintarra,69
+B156,en,shooting-range,Archery lesson,Learn archery basics on an outdoor range with a coach.,Trakai,Morvelia,74
+B157,lt,paintball,Dažasvydžio žaidimas grupei,Dviejų valandų dažasvydžio žaidimas su įranga ir 200 kamuoliukų.,Kaunas,Pušyno Kampas,39
+B158,lv,paintball,Lāzertags komandai,Lāzertaga spēle mežā līdz 12 spēlētājiem.,Rīga,Ozolmija,34
+B159,pl,paintball,Paintball dla grupy,"Gra w paintball na leśnym polu, sprzęt i kulki w cenie.",Poznań,Ozolmija,44
+B160,en,paintball,Laser tag party,A one-hour laser tag party for up to 10 kids with snacks.,Vilnius,Pušyno Kampas,39
+B161,lt,unknown,Padangų keitimas su balansavimu,Keturių padangų keitimas ir balansavimas lengvajam automobiliui.,Kaunas,Ostrevik,80
+B162,lv,unknown,Telefona ekrāna nomaiņa,Viedtālruņa ekrāna nomaiņa servisā ar garantiju.,Rīga,Gintarvėja,69
+B163,pl,unknown,Ręczne mycie samochodu,Ręczne mycie i woskowanie samochodu osobowego.,Łódź,Quintarra,25
+B164,en,unknown,Dog grooming session,"Bath, haircut and nail trim for a medium-sized dog.",Vilnius,Velmora,45
+B165,lt,unknown,Dovanų kuponas 50 €,"Dovanų kuponas, kurį galima panaudoti bet kuriai paslaugai.",Vilnius,Ostrevik,50
+B166,lv,unknown,Dāvanu karte 30 EUR,Dāvanu karte.,Rīga,Rugiaslinka,30
 B167,pl,unknown,Bon podarunkowy,Bon o wartości 100 zł.,,Lazurna,25
-B168,en,unknown,Gift voucher,Voucher.,,Saulvora,249
-B169,lt,unknown,Profesionalus buto valymas,Dviejų kambarių buto generalinis valymas su priemonėmis.,Vilnius,Morvelia,299
-B170,lv,unknown,Velosipēda apkope,Pilna velosipēda apkope un bremžu regulēšana.,Jelgava,Vejaskaltis,29
-B171,pl,unknown,Kurs języka angielskiego online,Dziesięć lekcji angielskiego online z lektorem.,,Morvelia,89
-B172,en,unknown,Mobile data top-up 20 GB,Prepaid mobile data package valid for 30 days.,,Pušyno Kampas,249
-B173,lt,unknown,Veterinaro konsultacija,Augintinio sveikatos patikra ir skiepų konsultacija.,Šiauliai,Pušyno Kampas,249
-B174,lv,unknown,Ziedu piegāde,Ziedu pušķa piegāde uz mājām Rīgas robežās.,Rīga,Brivlanda,69
-B175,pl,unknown,Przegląd klimatyzacji samochodowej,Odgrzybianie i uzupełnienie czynnika klimatyzacji.,Kraków,Morvelia,249
-B176,en,unknown,Laptop repair diagnostics,Full diagnostics of a laptop with a written repair estimate.,Kaunas,Ostrevik,199
-B177,lt,unknown,Vairavimo teorijos kursai,Kelių eismo taisyklių teorijos kursas B kategorijai.,Panevėžys,Quintarra,59
-B178,lv,unknown,Apdrošināšanas polise ceļojumam,Ceļojuma apdrošināšana uz 7 dienām Eiropā.,,Quintarra,69
-B179,pl,unknown,Kartridże do drukarki,Zestaw tuszy do drukarki atramentowej.,,Ostrevik,49
-B180,en,unknown,Window cleaning service,Inside and outside window cleaning for a flat up to 80 m2.,Klaipėda,Morvelia,39
-B181,lt,spa-day|romantic-getaway,SPA savaitgalis porai su nakvyne,"Naktis SPA viešbutyje dviem, neribotas baseinų ir pirčių zonos lankymas, šampanas kambaryje.",Birštonas,Brzozanka,35
-B182,lv,fine-dining|wine-tasting,Vakariņas ar vīna pāriem,"Piecu ēdienu vakariņas, katram ēdienam pieskaņots vīns un somelje stāsts.",Rīga,Wiklosz,179
-B183,pl,sauna-ritual|massage,Seans saunowy z masażem,Rytuał w saunie z saunamistrzem zakończony 30-minutowym masażem relaksacyjnym.,Karpacz,Gintarvėja,29
-B184,en,glamping|kayaking,Glamping night with a kayak trip,A night in a lakeside safari tent plus a half-day guided kayak trip the next morning.,Molėtai,Rugiaslinka,149
-B185,lt,yoga-retreat|kayaking,Joga ant irklentės,Jogos užsiėmimas ant SUP irklentės ežere su instruktoriumi.,Trakai,Kranvela,49
-B186,lv,cooking-class|beer-tasting,Alus un ēdiena gatavošanas vakars,"Kopā ar šefpavāru gatavojiet ēdienus, kas pieskaņoti piecām alus šķirnēm.",Rīga,Tolvika,35
-B187,pl,chocolate-workshop|wine-tasting,Degustacja czekolady i wina,"Połączenie sześciu czekolad rzemieślniczych z winami, prowadzone przez sommeliera.",Warszawa,Ozolmija,99
-B188,en,spa-day|massage,Couples spa with massage,Two massages side by side followed by three hours in the spa pools.,Druskininkai,Ozolmija,69
-B189,lt,photography-course|horse-riding,Fotosesija su žirgais,"Fotosesija gamtoje su žirgais, 20 apdorotų nuotraukų.",Kaunas,Ozolmija,179
-B190,lv,hot-air-balloon|romantic-getaway,Romantisks lidojums ar gaisa balonu diviem,"Privāts lidojums ar balonu tikai jums diviem, šampanietis un ziedi pēc nolaišanās.",Cēsis,Rugiaslinka,35
-B191,pl,countryside-cottage|sauna-ritual,Domek z bankią i rytuałem,Dwie noce w wiejskim domku z rosyjską banią i rytuałem z witkami.,Podlasie,Wiklosz,199
-B192,en,boat-trips|fine-dining,Dinner cruise on the river,A two-hour river cruise with a three-course dinner on board.,Kaunas,Nordvale Club,59
-B193,lt,escape-room|guided-tours,Pabėgimo žaidimas muziejuje,Komandinis galvosūkių žaidimas tarp muziejaus eksponatų su gidu.,Vilnius,Nordvale Club,149
-B194,lv,climbing|yoga-retreat,Bouldering un joga,Rīta joga un pēc tam boulderinga nodarbība vienā paketē.,Rīga,Quintarra,119
-B195,pl,shooting-range|paintball,Archery tag – bitwa na łuki,Drużynowa gra z łukami i strzałami z miękkimi grotami.,Gdańsk,Gintarvėja,149
-B196,en,pottery-workshop|wine-tasting,Pottery and wine night,Throw a bowl on the wheel while tasting three wines with a sommelier.,Vilnius,Brivlanda,99
-B197,lt,event-tickets|fine-dining,Vakarienė ir šou,Trijų patiekalų vakarienė ir kabareto pasirodymo bilietas.,Vilnius,Gintarvėja,29
-B198,lv,off-road-driving|paintball,Kvadracikli un peintbols,Aktīvā diena: kvadraciklu brauciens un peintbola spēle komandai.,Sigulda,Ezerlauka,19
-B199,pl,scenic-flights|skydiving,Lot widokowy i skok ze spadochronem,"Pakiet: lot widokowy samolotem, a następnie skok tandemowy.",Toruń,Gintarvėja,299
-B200,en,beer-tasting|guided-tours,Old town beer walk,A guided walk through the old town stopping at three craft beer bars.,Riga,Morvelia,179
+B168,en,unknown,Gift voucher,Voucher.,,Saulvora,20
+B169,lt,unknown,Profesionalus buto valymas,Dviejų kambarių buto generalinis valymas su priemonėmis.,Vilnius,Morvelia,89
+B170,lv,unknown,Velosipēda apkope,Pilna velosipēda apkope un bremžu regulēšana.,Jelgava,Vejaskaltis,35
+B171,pl,unknown,Kurs języka angielskiego online,Dziesięć lekcji angielskiego online z lektorem.,,Morvelia,99
+B172,en,unknown,Mobile data top-up 20 GB,Prepaid mobile data package valid for 30 days.,,Pušyno Kampas,15
+B173,lt,unknown,Veterinaro konsultacija,Augintinio sveikatos patikra ir skiepų konsultacija.,Šiauliai,Pušyno Kampas,29
+B174,lv,unknown,Ziedu piegāde,Ziedu pušķa piegāde uz mājām Rīgas robežās.,Rīga,Brivlanda,39
+B175,pl,unknown,Przegląd klimatyzacji samochodowej,Odgrzybianie i uzupełnienie czynnika klimatyzacji.,Kraków,Morvelia,59
+B176,en,unknown,Laptop repair diagnostics,Full diagnostics of a laptop with a written repair estimate.,Kaunas,Ostrevik,49
+B177,lt,unknown,Vairavimo teorijos kursai,Kelių eismo taisyklių teorijos kursas B kategorijai.,Panevėžys,Quintarra,79
+B178,lv,unknown,Apdrošināšanas polise ceļojumam,Ceļojuma apdrošināšana uz 7 dienām Eiropā.,,Quintarra,19
+B179,pl,unknown,Kartridże do drukarki,Zestaw tuszy do drukarki atramentowej.,,Ostrevik,45
+B180,en,unknown,Window cleaning service,Inside and outside window cleaning for a flat up to 80 m2.,Klaipėda,Morvelia,69
+B181,lt,spa-day|romantic-getaway,SPA savaitgalis porai su nakvyne,"Naktis SPA viešbutyje dviem, neribotas baseinų ir pirčių zonos lankymas, šampanas kambaryje.",Birštonas,Brzozanka,74
+B182,lv,fine-dining|wine-tasting,Vakariņas ar vīna pāriem,"Piecu ēdienu vakariņas, katram ēdienam pieskaņots vīns un someljē stāsts.",Rīga,Wiklosz,104
+B183,pl,sauna-ritual|massage,Seans saunowy z masażem,Rytuał w saunie z saunamistrzem zakończony 30-minutowym masażem relaksacyjnym.,Karpacz,Gintarvėja,79
+B184,en,glamping|kayaking,Glamping night with a kayak trip,A night in a lakeside safari tent plus a half-day guided kayak trip the next morning.,Molėtai,Rugiaslinka,124
+B185,lt,yoga-retreat|kayaking,Joga ant irklentės,Jogos užsiėmimas ant SUP irklentės ežere su instruktoriumi.,Trakai,Kranvela,74
+B186,lv,cooking-class|beer-tasting,Alus un ēdiena gatavošanas vakars,"Kopā ar šefpavāru gatavojiet ēdienus, kas pieskaņoti piecām alus šķirnēm.",Rīga,Tolvika,59
+B187,pl,chocolate-workshop|wine-tasting,Degustacja czekolady i wina,"Połączenie sześciu czekolad rzemieślniczych z winami, prowadzone przez sommeliera.",Warszawa,Ozolmija,34
+B188,en,spa-day|massage,Couples spa with massage,Two massages side by side followed by three hours in the spa pools.,Druskininkai,Ozolmija,59
+B189,lt,photography-course,Fotosesija su žirgais,"Fotosesija gamtoje su žirgais, 20 apdorotų nuotraukų.",Kaunas,Ozolmija,84
+B190,lv,hot-air-balloon|romantic-getaway,Romantisks lidojums ar gaisa balonu diviem,"Privāts lidojums ar balonu tikai jums diviem, šampanietis un ziedi pēc nolaišanās.",Cēsis,Rugiaslinka,179
+B191,pl,countryside-cottage|sauna-ritual,Domek z banią i rytuałem,Dwie noce w wiejskim domku z rosyjską banią i rytuałem z witkami.,Podlasie,Wiklosz,224
+B192,en,boat-trips|fine-dining,Dinner cruise on the river,A two-hour river cruise with a three-course dinner on board.,Kaunas,Nordvale Club,79
+B193,lt,escape-room|guided-tours,Pabėgimo žaidimas muziejuje,Komandinis galvosūkių žaidimas tarp muziejaus eksponatų su gidu.,Vilnius,Nordvale Club,59
+B194,lv,climbing|yoga-retreat,Boulderings un joga,Rīta joga un pēc tam boulderinga nodarbība vienā paketē.,Rīga,Quintarra,29
+B195,pl,shooting-range|paintball,Archery tag – bitwa na łuki,Drużynowa gra z łukami i strzałami z miękkimi grotami.,Gdańsk,Gintarvėja,84
+B196,en,pottery-workshop|wine-tasting,Pottery and wine night,Throw a bowl on the wheel while tasting three wines with a sommelier.,Vilnius,Brivlanda,49
+B197,lt,event-tickets|fine-dining,Vakarienė ir šou,Trijų patiekalų vakarienė ir kabareto pasirodymo bilietas.,Vilnius,Gintarvėja,54
+B198,lv,off-road-driving|paintball,Kvadracikli un peintbols,Aktīvā diena: kvadraciklu brauciens un peintbola spēle komandai.,Sigulda,Ezerlauka,149
+B199,pl,scenic-flights|skydiving,Lot widokowy i skok ze spadochronem,"Pakiet: lot widokowy samolotem, a następnie skok tandemowy.",Toruń,Gintarvėja,149
+B200,en,beer-tasting|guided-tours,Old town beer walk,A guided walk through the old town stopping at three craft beer bars.,Riga,Morvelia,34

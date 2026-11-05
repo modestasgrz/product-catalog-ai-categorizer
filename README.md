@@ -4,7 +4,7 @@ A marketplace team gets partner listing exports as CSV files: thousands of rows 
 
 This CLI does that step with Claude. Every row gets a category from the marketplace's tree, a link, a confidence and a one-sentence reason. Rows it can't place confidently are never silently guessed. They go to a review queue with the reason why.
 
-Rebuilt from scratch from a categorizer I delivered for a client (details anonymized). Everything in this repo runs on generated mock data for a fictional marketplace, **Elkwood Experiences** (experience gifts, 40 categories).
+A demo of a multi-language catalog categorizer. Everything in this repo runs on generated mock data for a fictional marketplace, **Elkwood Experiences** (experience gifts, 40 categories).
 
 ## Usage
 
@@ -62,12 +62,16 @@ How it stays reliable:
 
 1. **Category tree:** `data/category_tree.json`, 6 groups and 40 categories, written by hand.
 2. **Base listings:** `data/base_listings.csv`, 200 listings written by hand: 50 each in Lithuanian, Latvian, Polish and English. 160 are clear cases (4 per category), 20 are things the marketplace doesn't sell (tyre change, phone repair, a bare "gift voucher"…) whose correct answer is `unknown`, and 20 are packages that honestly fit two categories (e.g. a dinner cruise). Each carries its intended category.
-3. **Messy listings:** `tools/generate_listings.py --seed 42` turns every base listing into 5 variants. Four of the five get 1–2 kinds of mess: typos, stripped diacritics, empty description or location, a phrase in another language, HTML leftovers, ALL CAPS titles, cut-off descriptions. On top of that, 6 rows have title and description emptied, and 2 rows carry a prompt-injection sentence telling the model to pick a specific category. The result is `data/listings.csv` (1,000 rows), `data/listings_legacy_cp1257.csv` (40 rows, Baltic encoding, `;`) and the generator's labels in `data/labels.csv`.
+3. **Messy listings:** `tools/generate_listings.py --seed 42` turns every base listing into 5 variants. Most of the four extra variants get 1–2 kinds of mess: typos, stripped diacritics, empty description or location, a phrase in another language, HTML leftovers, ALL CAPS titles, cut-off descriptions. On top of that, 6 rows have title and description emptied, and 2 rows carry a prompt-injection sentence telling the model to pick a specific category. The result is `data/listings.csv` (1,000 rows), `data/listings_legacy_cp1257.csv` (40 rows, Baltic encoding, `;`) and the generator's labels in `data/labels.csv`.
 4. **Sample:** `tools/sample_gold.py --seed 42` draws 100 rows from `listings.csv`: both injection rows, 8 two-category rows, 6 unknown rows and 84 random ones.
-5. **Blind re-label:** a fresh Claude Opus agent labelled the same 100 rows seeing only the tree and each row's title, description and location (no generator labels). It agreed with the generator on 99 of 100.
-6. **Settling:** the one disagreement was settled by a reviewer and marked `source=settled` with a one-line note in `data/gold.csv`. All other rows are `source=generator`.
+5. **Blind re-label:** a fresh Claude Opus agent, with no access to the generator labels, labelled the same 100 rows seeing only the tree and each row's title, description and location. It agreed with the generator on 99 of 100.
+6. **Settling:** the disagreement was settled by the build's reviewer (a Claude agent acting for the owner) and is marked `source=settled` with a one-line note in `data/gold.csv`. All other rows are `source=generator`.
 
-Limits of this key: the listings are generated, and the person who wrote them also wrote the tree, so real partner exports will be messier in ways this set doesn't cover. Two-category rows accept either id.
+Limits of this key:
+- The listings are generated, and whoever wrote them also wrote the tree, so real partner exports will be messier in ways this set doesn't cover.
+- The 100 rows are variants of 79 distinct base listings, so a few base listings count more than once.
+- Rows with an empty title and description are marked `unknown` without a model call, so they are always scored correct.
+- Two-category rows accept either id.
 
 ## Results
 

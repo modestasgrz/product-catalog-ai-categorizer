@@ -115,7 +115,7 @@
     },
     {
       "id": "wine-tasting",
-      "name": "Wine tastings",
+      "name": "Wine & spirits tastings",
       "group": "Food & Drink",
       "url": "https://elkwood.example/c/wine-tasting",
       "description": "Guided wine, cider or spirits tastings with a sommelier or producer."
@@ -146,7 +146,7 @@
       "name": "Chocolate & sweets workshops",
       "group": "Food & Drink",
       "url": "https://elkwood.example/c/chocolate-workshop",
-      "description": "Chocolate, candy or pastry-making workshops and tastings."
+      "description": "Chocolate, praline, macaron and other confectionery-making workshops and tastings."
     },
     {
       "id": "coffee-class",
@@ -241,7 +241,7 @@
     },
     {
       "id": "personal-training",
-      "name": "Personal training",
+      "name": "Gym & personal training",
       "group": "Sport & Fitness",
       "url": "https://elkwood.example/c/personal-training",
       "description": "Gym passes, personal trainer sessions and fitness assessments."

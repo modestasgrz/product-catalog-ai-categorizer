@@ -16,15 +16,20 @@ COLUMNS = [
     "price_eur",
 ]
 VARIANTS_PER_BASE = 5
-TITLE_SAFE_TAGS = {"empty_description", "empty_location", "all_caps", "no_diacritics"}
+EMPTY_DESCRIPTION_COMPATIBLE = {
+    "empty_description",
+    "empty_location",
+    "all_caps",
+    "no_diacritics",
+}
 MESSY_TAGS = [
     "typo",
-    "no_diacritics",
     "empty_description",
     "empty_location",
     "truncated",
     "mixed_language",
     "html",
+    "no_diacritics",
     "all_caps",
 ]
 PARTNERS = [
@@ -69,6 +74,8 @@ def mess_up(rnd: random.Random, row: dict[str, str], language: str, tag: str) ->
         i = rnd.choice(long_words)
         j = rnd.randrange(1, len(words[i]) - 2)
         word = words[i]
+        if word[j] == word[j + 1]:
+            return False
         words[i] = word[:j] + word[j + 1] + word[j] + word[j + 2 :]
         row[field] = " ".join(words)
     elif tag == "no_diacritics":
@@ -138,7 +145,7 @@ def generate(seed: int, out_dir: Path) -> None:
             if k > 0:
                 chosen = rnd.sample(MESSY_TAGS, rnd.choice([1, 1, 2]))
                 if "empty_description" in chosen:
-                    chosen = [t for t in chosen if t in TITLE_SAFE_TAGS]
+                    chosen = [t for t in chosen if t in EMPTY_DESCRIPTION_COMPATIBLE]
                 for tag in sorted(chosen, key=MESSY_TAGS.index):
                     if mess_up(rnd, row, b["language"], tag):
                         tags.append(tag)
@@ -165,8 +172,7 @@ def generate(seed: int, out_dir: Path) -> None:
             "unknown",
             language,
             sorted(
-                {*tags, "empty_title", "empty_description"}
-                - {"truncated", "typo", "all_caps", "html"}
+                {"empty_title", "empty_description", *({"empty_location"} & set(tags))}
             ),
         )
     rnd.shuffle(listings)
