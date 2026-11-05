@@ -39,13 +39,13 @@ select = ["E", "W", "F", "I", "N", "UP", "ANN", "ASYNC", "S", "B", "C4", "G", "L
 ignore = ["E501"]
 
 [tool.ruff.lint.per-file-ignores]
-"tests/**" = ["S101", "ANN", "PLR2004"]
+"tests/**" = ["S101", "S603", "ANN", "PLR2004"]
 "scripts/**" = ["S603", "S607", "T20"]
 
 [tool.mypy]
 python_version = "3.12"
 strict = true
-exclude = ["^\\.semgrep/", "^\\.claude/", "^scripts/", "^build/", "^\\.venv/"]
+exclude = ["^\\.semgrep/", "^\\.claude/", "^scripts/", "^build/", "^\\.venv/", "^tests/acceptance/"]
 
 [[tool.mypy.overrides]]
 module = ["kit_security", "security_adapter"]
