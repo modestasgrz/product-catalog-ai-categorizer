@@ -71,7 +71,7 @@ def test_tree_rejects_bad_id_and_missing_file(tmp_path: Path) -> None:
         json.dumps(
             {
                 "marketplace": "M",
-                "categories": [{**TREE["categories"][0], "id": "Spa Day"}],
+                "categories": [{**SPA, "id": "Spa Day"}],
             }
         ),
         encoding="utf-8",
