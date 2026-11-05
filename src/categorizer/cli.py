@@ -79,7 +79,7 @@ def main(argv: list[str] | None = None) -> int:
     except InputError:
         return 2
     except OSError as e:
-        logger.error(f"cannot read input file: {type(e).__name__}")
+        logger.error(f"cannot read the input or write the outputs: {type(e).__name__}")
         return 2
     except (AuthenticationError, PermissionDeniedError):
         logger.error("Anthropic API key rejected")

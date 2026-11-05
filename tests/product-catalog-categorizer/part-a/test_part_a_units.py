@@ -105,7 +105,7 @@ async def test_short_and_long_rows_are_fitted_to_the_header(
         (tmp_path / "x_categorized.csv").read_text(encoding="utf-8-sig").splitlines()
     )
     assert lines[1].endswith(",Spa,Massage,")
-    assert lines[2].endswith(",Spa,Massage,Vilnius")
+    assert lines[2].endswith(",Spa,Massage,Vilnius,extra")
 
 
 async def test_validation_error_counts_as_invalid_output() -> None:

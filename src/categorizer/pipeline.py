@@ -26,6 +26,7 @@ NEW_COLUMNS = [
 ]
 ENCODINGS = ("utf-8-sig", "cp1257", "latin1")
 CHUNK_SIZE = 50
+MAX_CELL_CHARS = 16 * 1024 * 1024
 PRICE_PER_MTOK = {
     "input": 2.00,
     "output": 10.00,
@@ -40,16 +41,18 @@ class InputError(ValueError):
 
 def read_csv_rows(path: Path) -> tuple[list[list[str]], str]:
     raw = path.read_bytes()
-    for encoding in ENCODINGS:
+    for encoding in ENCODINGS[:-1]:
         try:
             text = raw.decode(encoding)
             break
         except UnicodeDecodeError:
             continue
     else:
-        raise InputError("cannot decode input file")
-    header_line = text.split("\n", 1)[0]
+        encoding = ENCODINGS[-1]
+        text = raw.decode(encoding)
+    header_line = next((line for line in text.splitlines() if line.strip()), "")
     delimiter = ";" if header_line.count(";") > header_line.count(",") else ","
+    csv.field_size_limit(MAX_CELL_CHARS)
     rows = [
         row
         for row in csv.reader(io.StringIO(text, newline=""), delimiter=delimiter)
@@ -76,7 +79,7 @@ async def categorize_file(
     title_at, description_at, location_at = (
         positions[name] for name in REQUIRED_COLUMNS
     )
-    listings = [(row + [""] * len(header))[: len(header)] for row in rows[1:]][
+    listings = [row + [""] * (len(header) - len(row)) for row in rows[1:]][
         : settings.limit
     ]
 
@@ -116,9 +119,7 @@ async def categorize_file(
         for chunk_start in range(0, len(listings), CHUNK_SIZE):
             chunk = listings[chunk_start : chunk_start + CHUNK_SIZE]
             verdicts = await asyncio.gather(*(classify(row) for row in chunk))
-            for row_number, (row, verdict) in enumerate(
-                zip(chunk, verdicts, strict=True), start=chunk_start + 1
-            ):
+            for row, verdict in zip(chunk, verdicts, strict=True):
                 tokens["input"] += verdict.input_tokens
                 tokens["output"] += verdict.output_tokens
                 tokens["cache_read"] += verdict.cache_read_input_tokens
@@ -131,7 +132,6 @@ async def categorize_file(
                         0.0,
                         verdict.error,
                     )
-                    logger.warning(f"Row {row_number}: {verdict.error}")
                 elif result is None:
                     status, category_id, confidence, reason = (
                         "unknown",
@@ -147,14 +147,12 @@ async def categorize_file(
                         result.reason,
                     )
                 else:
-                    status = (
-                        "ok" if result.confidence >= settings.threshold else "review"
-                    )
                     category_id, confidence, reason = (
                         result.category_id,
-                        result.confidence,
+                        round(result.confidence, 2),
                         result.reason,
                     )
+                    status = "ok" if confidence >= settings.threshold else "review"
                 category = categories.get(category_id)
                 line = [
                     status,
