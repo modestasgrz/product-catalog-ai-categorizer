@@ -1,0 +1,58 @@
+[project]
+name = "product-catalog-ai-categorizer"
+version = "0.1.0"
+description = "AI categorizer that maps a messy multi-language product listing CSV onto a marketplace category tree, with confidence, reason and a review queue."
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "anthropic>=0.70",
+    "loguru>=0.7",
+    "pydantic>=2.12",
+]
+
+[project.scripts]
+categorize = "categorizer.cli:main"
+
+[dependency-groups]
+dev = [
+    "httpx>=0.28",
+    "mypy>=1.19",
+    "pytest>=9.0",
+    "pytest-asyncio>=1.3",
+    "ruff>=0.14",
+    "starlette>=0.48",
+]
+
+[build-system]
+requires = ["uv_build>=0.13.0,<0.14.0"]
+build-backend = "uv_build"
+
+[tool.uv.build-backend]
+module-name = "categorizer"
+
+[tool.ruff]
+target-version = "py312"
+extend-exclude = [".semgrep/fixtures", ".claude/hooks", "scripts/agent_guardrails.py"]
+
+[tool.ruff.lint]
+select = ["E", "W", "F", "I", "N", "UP", "ANN", "ASYNC", "S", "B", "C4", "G", "LOG", "PIE", "PT", "RET", "SIM", "PTH", "TRY401", "RUF"]
+ignore = ["E501"]
+
+[tool.ruff.lint.per-file-ignores]
+"tests/**" = ["S101", "ANN", "PLR2004"]
+"scripts/**" = ["S603", "S607", "T20"]
+
+[tool.mypy]
+python_version = "3.12"
+strict = true
+exclude = ["^\\.semgrep/", "^\\.claude/", "^scripts/", "^build/", "^\\.venv/"]
+
+[[tool.mypy.overrides]]
+module = ["kit_security", "security_adapter"]
+ignore_missing_imports = true
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+asyncio_mode = "auto"
+pythonpath = ["tests/security"]
+asyncio_default_fixture_loop_scope = "function"
