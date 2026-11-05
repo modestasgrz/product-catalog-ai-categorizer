@@ -70,7 +70,9 @@ async def categorize_file(
     header = rows[0] if rows else []
     positions = {name.strip().lower(): i for i, name in enumerate(header)}
     if missing := [name for name in REQUIRED_COLUMNS if name not in positions]:
-        raise InputError(f"missing required columns: {', '.join(missing)}")
+        message = f"missing required columns: {', '.join(missing)}"
+        logger.error(message)
+        raise InputError(message)
     title_at, description_at, location_at = (
         positions[name] for name in REQUIRED_COLUMNS
     )

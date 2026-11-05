@@ -66,8 +66,7 @@ def main(argv: list[str] | None = None) -> int:
         return 2
     try:
         tree = load_tree(args.tree)
-    except ValueError as e:
-        logger.error(str(e))
+    except ValueError:
         return 2
 
     client = AsyncAnthropic(max_retries=6, timeout=60.0)
@@ -77,8 +76,7 @@ def main(argv: list[str] | None = None) -> int:
                 args.input, tree, args.out_dir or args.input.parent, client, settings
             )
         )
-    except InputError as e:
-        logger.error(str(e))
+    except InputError:
         return 2
     except OSError as e:
         logger.error(f"cannot read input file: {type(e).__name__}")
