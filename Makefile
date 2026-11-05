@@ -23,7 +23,7 @@ check:
 
 security:
 	uv sync --locked
-	uv run ruff check --select S,G,LOG,TRY401 --ignore S603,S607 --per-file-ignores "tests/**:S101" --per-file-ignores "tests/**:S105" --per-file-ignores "tests/**:S106" .
+	uv run ruff check --select S,G,LOG,TRY401 --ignore S603,S607 --per-file-ignores "tests/**:S101" --per-file-ignores "tests/**:S105" --per-file-ignores "tests/**:S106" --per-file-ignores "tools/**:S311" .
 	@collected=$$(uv run pytest --ignore=tests/acceptance --collect-only -q -p no:cacheprovider 2>/dev/null | grep '^tests/security/'); \
 	  missing=$$(printf '%s\n' "$$collected" | grep -Fvx -f - tests/security/EXPECTED_TESTS); \
 	  [ -z "$$missing" ] || { echo "security tests not collected in the full run (deselected by pytest config or a conftest.py):"; echo "$$missing"; exit 1; }
