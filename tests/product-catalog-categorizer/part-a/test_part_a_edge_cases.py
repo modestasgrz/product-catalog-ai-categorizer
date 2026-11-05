@@ -374,7 +374,7 @@ async def test_whitespace_variants_count_as_empty(
     assert report.status_counts["ok"] == 1
 
 
-async def test_input_with_existing_status_column_keeps_both(
+async def test_input_with_existing_output_columns_is_rejected_before_any_call(
     tmp_path: Path, tree_path: Path
 ) -> None:
     header = ["status", "title", "description", "location", "reason"]
@@ -383,12 +383,13 @@ async def test_input_with_existing_status_column_keeps_both(
         header,
         [["partner-said-active", "Spa", "d", "Riga", "mine"]],
     )
-    await run(src, tree_path, tmp_path, client_from(reply("spa-day", 0.8, "Model.")))
-    out = raw_rows(tmp_path / "x_categorized.csv")
-    assert out[0] == NEW_COLUMNS + header
-    assert out[1][0] == "ok"
-    assert out[1][3] == "Model."
-    assert out[1][6:] == ["partner-said-active", "Spa", "d", "Riga", "mine"]
+    client = client_from(reply("spa-day", 0.8, "Model."))
+    with pytest.raises(
+        InputError, match="input already has output columns: status, reason"
+    ):
+        await run(src, tree_path, tmp_path, client)
+    client.messages.parse.assert_not_called()
+    assert not (tmp_path / "x_categorized.csv").exists()
 
 
 async def test_required_columns_in_any_order_with_padded_mixed_case_headers(
