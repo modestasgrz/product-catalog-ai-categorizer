@@ -26,6 +26,7 @@ NEW_COLUMNS = [
 ]
 ENCODINGS = ("utf-8-sig", "cp1257", "latin1")
 CHUNK_SIZE = 50
+FORMULA_PREFIXES = ("=", "+", "-", "@")
 MAX_CELL_CHARS = 16 * 1024 * 1024
 PRICE_PER_MTOK = {
     "input": 2.00,
@@ -74,6 +75,10 @@ async def categorize_file(
     positions = {name.strip().lower(): i for i, name in enumerate(header)}
     if missing := [name for name in REQUIRED_COLUMNS if name not in positions]:
         message = f"missing required columns: {', '.join(missing)}"
+        logger.error(message)
+        raise InputError(message)
+    if clashes := [name for name in NEW_COLUMNS if name in positions]:
+        message = f"input already has output columns: {', '.join(clashes)}"
         logger.error(message)
         raise InputError(message)
     title_at, description_at, location_at = (
@@ -158,7 +163,7 @@ async def categorize_file(
                     status,
                     category.name if category else "",
                     f"{confidence:.2f}",
-                    reason,
+                    f"'{reason}" if reason.startswith(FORMULA_PREFIXES) else reason,
                     category_id,
                     category.url if category else "",
                     *row,
