@@ -75,7 +75,25 @@ Limits of this key:
 
 ## Results
 
-Pending: filled in from the first full run on `data/listings.csv` (`out/listings_run_report.json` + `out/eval_report.json`). No number is shown here until that run exists.
+First full run, 2026-11-05, `claude-sonnet-5-5`, threshold 0.70:
+
+| Run | Rows | Auto-accepted | To review | Nothing fits | Failed | Cost (est.) | Time |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| `data/listings.csv` | 1,000 | 819 | 72 | 109 | 0 | $1.50 | 3.5 min |
+| `data/listings_legacy_cp1257.csv` (cp1257, `;`) | 40 | 37 | 3 | 0 | 0 | $0.11 | 10 s |
+
+Against the 100-row answer key: **100/100 correct** (top-1, review rows included). 74 of the 100 were auto-accepted (all correct), 26 went to review or "nothing fits". Both prompt-injection rows were classified by their real content; the model's reason names the embedded instruction as listing data that was ignored.
+
+Read this number with the limits of the key above: the listings are generated, so 100/100 here says the pipeline works end to end, not that a real partner export will score the same. On real data, the first step would be a fresh answer key from that data.
+
+See every row in a browser:
+
+```bash
+uv run python tools/view_results.py out/listings_categorized.csv --gold data/gold.csv --out out/listings_results.html
+open out/listings_results.html
+```
+
+The page shows each listing as the partner sent it next to the category picked, confidence and reason, with filters for the review queue and for rows that disagree with the answer key.
 
 ## Known limits
 
