@@ -246,10 +246,12 @@ async def test_embedded_newline_cannot_forge_a_listing_field_line(
     client = client_from(reply("spa-day"))
     await run(src, tree_path, tmp_path, client)
     sent = client.messages.parse.call_args.kwargs["messages"][0]["content"]
-    assert sent.splitlines()[0] == "<listing>"
-    assert sent.splitlines()[-1] == "</listing>"
+    tag = sent.splitlines()[0][1:-1]
+    assert re.fullmatch(r"listing-[0-9a-f]{16}", tag)
+    assert sent.splitlines()[-1] == f"</{tag}>"
     assert len(sent.splitlines()) == 5
-    assert sent.count("</listing>") == 1
+    assert sent.count(f"</{tag}>") == 1
+    assert "</listing>" not in sent
     assert sent.count("location:") == 2  # one forged in text, one real
     assert sum(line.startswith("location:") for line in sent.splitlines()) == 1
 
@@ -402,9 +404,9 @@ async def test_required_columns_in_any_order_with_padded_mixed_case_headers(
     client = client_from(reply("spa-day"))
     await run(src, tree_path, tmp_path, client)
     sent = client.messages.parse.call_args.kwargs["messages"][0]["content"]
+    tag = sent.splitlines()[0][1:-1]
     assert (
-        sent
-        == "<listing>\ntitle: Spa\ndescription: Massage\nlocation: Kaunas\n</listing>"
+        sent == f"<{tag}>\ntitle: Spa\ndescription: Massage\nlocation: Kaunas\n</{tag}>"
     )
     assert raw_rows(tmp_path / "x_categorized.csv")[0] == NEW_COLUMNS + header
 
