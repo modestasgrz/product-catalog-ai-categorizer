@@ -1,0 +1,2 @@
+# cp1257 test fixture: not UTF-8, so keep it out of text diffs
+*_cp1257.csv -diff
