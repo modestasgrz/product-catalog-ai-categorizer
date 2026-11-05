@@ -1,0 +1,285 @@
+{
+  "marketplace": "Elkwood Experiences",
+  "categories": [
+    {
+      "id": "hot-air-balloon",
+      "name": "Hot-air balloon flights",
+      "group": "Adventure & Outdoors",
+      "url": "https://elkwood.example/c/hot-air-balloon",
+      "description": "Balloon rides over cities, lakes or countryside, usually at sunrise or sunset."
+    },
+    {
+      "id": "skydiving",
+      "name": "Skydiving",
+      "group": "Adventure & Outdoors",
+      "url": "https://elkwood.example/c/skydiving",
+      "description": "Tandem or solo parachute jumps and freefall experiences from an aircraft."
+    },
+    {
+      "id": "paragliding",
+      "name": "Paragliding",
+      "group": "Adventure & Outdoors",
+      "url": "https://elkwood.example/c/paragliding",
+      "description": "Tandem paragliding and paramotor flights, including hang-gliding taster flights."
+    },
+    {
+      "id": "scenic-flights",
+      "name": "Scenic flights",
+      "group": "Adventure & Outdoors",
+      "url": "https://elkwood.example/c/scenic-flights",
+      "description": "Sightseeing flights in small planes, gliders or helicopters, and trial flying lessons."
+    },
+    {
+      "id": "karting",
+      "name": "Karting",
+      "group": "Adventure & Outdoors",
+      "url": "https://elkwood.example/c/karting",
+      "description": "Indoor or outdoor go-kart racing sessions and karting tournaments."
+    },
+    {
+      "id": "off-road-driving",
+      "name": "Off-road & supercar driving",
+      "group": "Adventure & Outdoors",
+      "url": "https://elkwood.example/c/off-road-driving",
+      "description": "Driving experiences in off-road vehicles, quads, buggies, rally or sports cars."
+    },
+    {
+      "id": "horse-riding",
+      "name": "Horse riding",
+      "group": "Adventure & Outdoors",
+      "url": "https://elkwood.example/c/horse-riding",
+      "description": "Horse riding lessons, trail rides and pony rides."
+    },
+    {
+      "id": "kayaking",
+      "name": "Kayaking & canoeing",
+      "group": "Adventure & Outdoors",
+      "url": "https://elkwood.example/c/kayaking",
+      "description": "Kayak, canoe and SUP trips or rentals on rivers and lakes."
+    },
+    {
+      "id": "boat-trips",
+      "name": "Boat & sailing trips",
+      "group": "Adventure & Outdoors",
+      "url": "https://elkwood.example/c/boat-trips",
+      "description": "Yacht, sailing, motorboat or river cruise trips."
+    },
+    {
+      "id": "diving",
+      "name": "Diving & snorkelling",
+      "group": "Adventure & Outdoors",
+      "url": "https://elkwood.example/c/diving",
+      "description": "Scuba diving intro dives, courses and snorkelling trips."
+    },
+    {
+      "id": "spa-day",
+      "name": "Spa days",
+      "group": "Wellness & Beauty",
+      "url": "https://elkwood.example/c/spa-day",
+      "description": "Day passes and packages at spa centres with pools, baths and relaxation areas."
+    },
+    {
+      "id": "massage",
+      "name": "Massages",
+      "group": "Wellness & Beauty",
+      "url": "https://elkwood.example/c/massage",
+      "description": "Massage treatments of any style: classic, sports, hot stone, Thai, aromatherapy."
+    },
+    {
+      "id": "sauna-ritual",
+      "name": "Sauna rituals",
+      "group": "Wellness & Beauty",
+      "url": "https://elkwood.example/c/sauna-ritual",
+      "description": "Traditional sauna or bathhouse rituals with whisking, steam and cold plunges."
+    },
+    {
+      "id": "beauty-treatments",
+      "name": "Beauty treatments",
+      "group": "Wellness & Beauty",
+      "url": "https://elkwood.example/c/beauty-treatments",
+      "description": "Facials, manicure, pedicure, cosmetic and hair treatments."
+    },
+    {
+      "id": "yoga-retreat",
+      "name": "Yoga & meditation",
+      "group": "Wellness & Beauty",
+      "url": "https://elkwood.example/c/yoga-retreat",
+      "description": "Yoga classes, meditation sessions and wellness retreats."
+    },
+    {
+      "id": "float-therapy",
+      "name": "Float therapy",
+      "group": "Wellness & Beauty",
+      "url": "https://elkwood.example/c/float-therapy",
+      "description": "Floating in salt-water float tanks or pods."
+    },
+    {
+      "id": "wine-tasting",
+      "name": "Wine tastings",
+      "group": "Food & Drink",
+      "url": "https://elkwood.example/c/wine-tasting",
+      "description": "Guided wine, cider or spirits tastings with a sommelier or producer."
+    },
+    {
+      "id": "beer-tasting",
+      "name": "Beer tastings & brewery tours",
+      "group": "Food & Drink",
+      "url": "https://elkwood.example/c/beer-tasting",
+      "description": "Craft beer tastings and brewery visits."
+    },
+    {
+      "id": "cooking-class",
+      "name": "Cooking classes",
+      "group": "Food & Drink",
+      "url": "https://elkwood.example/c/cooking-class",
+      "description": "Hands-on cooking and baking classes and culinary workshops."
+    },
+    {
+      "id": "fine-dining",
+      "name": "Dinners & tasting menus",
+      "group": "Food & Drink",
+      "url": "https://elkwood.example/c/fine-dining",
+      "description": "Restaurant dinners, tasting menus and chef's table experiences."
+    },
+    {
+      "id": "chocolate-workshop",
+      "name": "Chocolate & sweets workshops",
+      "group": "Food & Drink",
+      "url": "https://elkwood.example/c/chocolate-workshop",
+      "description": "Chocolate, candy or pastry-making workshops and tastings."
+    },
+    {
+      "id": "coffee-class",
+      "name": "Coffee & tea experiences",
+      "group": "Food & Drink",
+      "url": "https://elkwood.example/c/coffee-class",
+      "description": "Barista classes, coffee cuppings and tea ceremonies."
+    },
+    {
+      "id": "countryside-cottage",
+      "name": "Countryside cottages",
+      "group": "Stays & Getaways",
+      "url": "https://elkwood.example/c/countryside-cottage",
+      "description": "Stays at rural homesteads, cottages and lake houses."
+    },
+    {
+      "id": "city-hotel-break",
+      "name": "City hotel breaks",
+      "group": "Stays & Getaways",
+      "url": "https://elkwood.example/c/city-hotel-break",
+      "description": "Hotel nights in a city, with or without breakfast."
+    },
+    {
+      "id": "glamping",
+      "name": "Glamping",
+      "group": "Stays & Getaways",
+      "url": "https://elkwood.example/c/glamping",
+      "description": "Stays in domes, tents, treehouses or other glamping units."
+    },
+    {
+      "id": "romantic-getaway",
+      "name": "Romantic getaways",
+      "group": "Stays & Getaways",
+      "url": "https://elkwood.example/c/romantic-getaway",
+      "description": "Couples' stay packages combining a night away with extras such as dinner or champagne."
+    },
+    {
+      "id": "pottery-workshop",
+      "name": "Pottery & crafts workshops",
+      "group": "Culture & Learning",
+      "url": "https://elkwood.example/c/pottery-workshop",
+      "description": "Pottery, ceramics, candle-making and other hand-craft workshops."
+    },
+    {
+      "id": "painting-class",
+      "name": "Painting & drawing classes",
+      "group": "Culture & Learning",
+      "url": "https://elkwood.example/c/painting-class",
+      "description": "Painting, drawing and wine-and-paint sessions."
+    },
+    {
+      "id": "photography-course",
+      "name": "Photography courses & photo shoots",
+      "group": "Culture & Learning",
+      "url": "https://elkwood.example/c/photography-course",
+      "description": "Photography lessons and professional photo sessions."
+    },
+    {
+      "id": "dance-lessons",
+      "name": "Dance lessons",
+      "group": "Culture & Learning",
+      "url": "https://elkwood.example/c/dance-lessons",
+      "description": "Dance classes of any style, including wedding first-dance lessons."
+    },
+    {
+      "id": "music-lessons",
+      "name": "Music & singing lessons",
+      "group": "Culture & Learning",
+      "url": "https://elkwood.example/c/music-lessons",
+      "description": "Instrument, singing and DJ lessons, recording studio sessions."
+    },
+    {
+      "id": "escape-room",
+      "name": "Escape rooms & quests",
+      "group": "Culture & Learning",
+      "url": "https://elkwood.example/c/escape-room",
+      "description": "Escape rooms, quest games and mystery adventures."
+    },
+    {
+      "id": "guided-tours",
+      "name": "Guided tours & museums",
+      "group": "Culture & Learning",
+      "url": "https://elkwood.example/c/guided-tours",
+      "description": "Guided city, museum and heritage tours."
+    },
+    {
+      "id": "event-tickets",
+      "name": "Concert & theatre tickets",
+      "group": "Culture & Learning",
+      "url": "https://elkwood.example/c/event-tickets",
+      "description": "Tickets or vouchers for concerts, theatre, comedy and shows."
+    },
+    {
+      "id": "personal-training",
+      "name": "Personal training",
+      "group": "Sport & Fitness",
+      "url": "https://elkwood.example/c/personal-training",
+      "description": "Gym passes, personal trainer sessions and fitness assessments."
+    },
+    {
+      "id": "climbing",
+      "name": "Climbing",
+      "group": "Sport & Fitness",
+      "url": "https://elkwood.example/c/climbing",
+      "description": "Indoor bouldering, climbing walls and outdoor climbing."
+    },
+    {
+      "id": "golf-lesson",
+      "name": "Golf",
+      "group": "Sport & Fitness",
+      "url": "https://elkwood.example/c/golf-lesson",
+      "description": "Golf lessons, driving range and course play."
+    },
+    {
+      "id": "racket-sports",
+      "name": "Tennis & racket sports",
+      "group": "Sport & Fitness",
+      "url": "https://elkwood.example/c/racket-sports",
+      "description": "Tennis, padel, squash and badminton lessons or court time."
+    },
+    {
+      "id": "shooting-range",
+      "name": "Shooting & archery",
+      "group": "Sport & Fitness",
+      "url": "https://elkwood.example/c/shooting-range",
+      "description": "Shooting range sessions and archery."
+    },
+    {
+      "id": "paintball",
+      "name": "Paintball & laser tag",
+      "group": "Sport & Fitness",
+      "url": "https://elkwood.example/c/paintball",
+      "description": "Paintball, airsoft and laser tag games."
+    }
+  ]
+}
