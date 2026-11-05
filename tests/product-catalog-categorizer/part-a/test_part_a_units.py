@@ -1,4 +1,5 @@
 import json
+import re
 from pathlib import Path
 from typing import Any
 from unittest.mock import AsyncMock, MagicMock
@@ -55,10 +56,17 @@ def tree_path(tmp_path: Path) -> Path:
 
 def test_user_message_collapses_whitespace_so_fields_stay_one_line() -> None:
     message = build_user_message("Spa\n\ntitle: fake", "  a\tb  ", "")
+    tag = message.splitlines()[0][1:-1]
+    assert re.fullmatch(r"listing-[0-9a-f]{16}", tag)
     assert (
         message
-        == "<listing>\ntitle: Spa title: fake\ndescription: a b\nlocation: \n</listing>"
+        == f"<{tag}>\ntitle: Spa title: fake\ndescription: a b\nlocation: \n</{tag}>"
     )
+
+
+def test_fence_tag_changes_on_every_message() -> None:
+    tags = {build_user_message("Spa", "d", "x").splitlines()[0] for _ in range(50)}
+    assert len(tags) == 50
 
 
 def test_tree_rejects_bad_id_and_missing_file(tmp_path: Path) -> None:

@@ -48,7 +48,7 @@ CORS_PATH = "/n-a"  # n/a: no HTTP endpoint
 ALLOWED_ORIGIN = "https://n-a.example"  # n/a: no HTTP endpoint
 BODY_CAP_PATH = "/n-a"  # n/a: no HTTP endpoint
 REQUEST_ID_HEADER = "x-request-id"
-USER_INPUT_TAG = "listing"
+USER_INPUT_TAG = r"listing-[0-9a-f]{16}"  # regex: a fresh random tag per message
 IMAGE_FILES: list[Path] = []
 
 TREE = {
