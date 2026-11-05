@@ -14,18 +14,14 @@ from categorizer.models import Classification, RunSettings
 from categorizer.pipeline import categorize_file, read_csv_rows
 from categorizer.tree import load_tree
 
-TREE = {
-    "marketplace": "M",
-    "categories": [
-        {
-            "id": "spa-day",
-            "name": "Spa days",
-            "group": "Wellness",
-            "url": "https://m.example/c/spa-day",
-            "description": "Spa",
-        }
-    ],
+SPA = {
+    "id": "spa-day",
+    "name": "Spa days",
+    "group": "Wellness",
+    "url": "https://m.example/c/spa-day",
+    "description": "Spa",
 }
+TREE = {"marketplace": "M", "categories": [SPA]}
 
 
 def response(category_id: str = "spa-day", confidence: float = 0.9) -> MagicMock:
