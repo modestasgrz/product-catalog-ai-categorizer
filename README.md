@@ -1,5 +1,9 @@
 # product-catalog-ai-categorizer
 
+**Demo video (≈1 min):** click the poster to play it.
+
+[![product-catalog-ai-categorizer demo video](docs/demo/product-catalog-ai-categorizer-poster.png)](docs/demo/product-catalog-ai-categorizer-demo.mp4)
+
 A marketplace team gets partner listing exports as CSV files: thousands of rows of messy, multi-language text (Lithuanian, Latvian, Polish, English, often mixed), and someone has to put every listing into the right category by hand.
 
 This CLI does that step with Claude. Every row gets a category from the marketplace's tree, a link, a confidence and a one-sentence reason. Rows it can't place confidently are never silently guessed. They go to a review queue with the reason why.
