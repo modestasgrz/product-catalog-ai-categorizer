@@ -1,8 +1,8 @@
 # product-catalog-ai-categorizer
 
-**Demo video (≈1 min):** click the poster to play it.
+**Demo video (≈1 min):**
 
-[![product-catalog-ai-categorizer demo video](docs/demo/product-catalog-ai-categorizer-poster.png)](docs/demo/product-catalog-ai-categorizer-demo.mp4)
+https://github.com/user-attachments/assets/91c0d525-5ac5-4cb5-904b-179d67a7111d
 
 A marketplace team gets partner listing exports as CSV files: thousands of rows of messy, multi-language text (Lithuanian, Latvian, Polish, English, often mixed), and someone has to put every listing into the right category by hand.
 
